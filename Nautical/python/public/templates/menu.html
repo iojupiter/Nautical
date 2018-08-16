@@ -1,0 +1,20 @@
+<div data-role="header">
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" style="position:relative;width:25%;float:left;"onclick="interact('user')"></button>
+    <h1 style="position:relative;width:50%;float:left;text-align:center;">Menu</h1>
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" style="position:relative;width:25%;float:left;"onclick="interact('home', 'home')"></button>
+  </div>
+
+  <div data-role="main" class="ui-content"style="position:relative;width:91%;float:left;">
+	<!--menu to act on variable x -->
+	{% if x == "menu" %}
+		{% include 'menuTemplates/menuchild.html' %}
+	{% elif x == "starters" %}
+		{% include 'menuTemplates/starters.html' %}
+	{% elif x == "mains" %}
+		{% include 'menuTemplates/mains.html' %}
+	{% elif x == "desserts" %}
+		{% include 'menuTemplates/desserts.html' %}
+	{% elif x == "beverages" %}
+		{% include 'menuTemplates/beverages.html' %}
+	{% endif %}
+  </div>

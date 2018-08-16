@@ -1,0 +1,54 @@
+  <div data-role="header">
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" style="position:relative;width:25%;float:left;"onclick="interact('user')"></button>
+    <h1 style="position:relative;width:50%;float:left;text-align:center;">Jukebox</h1>
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" style="position:relative;width:25%;float:left;"onclick="interact('home', 'home')"></button>
+  </div>
+
+
+  <div data-role="main" class="ui-content" style="position:relative;width:91%;float:left;">
+        <button class="ui-btn ui-icon-plus ui-btn-icon-notext" style="position:relative;width:20%;" onclick="alert('DIALOG LIBRARY!');"></button>
+    <ol data-role="listview" data-inset="true" style="list-style: none;">									
+      <li id="song1">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">1.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">{{ x }}</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+      <li id="song2">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">2.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">song 2</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+      <li id="song3">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">3.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">song 3</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+      <li id="song4">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">4.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">song 4</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+      <li id="song5">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">5.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">song 5</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+      <li id="song6">
+        <article class="ui-btn" >
+        	<section style="position:relative;width:5%;float:left">6.</section>
+        	<h3 style="position:relative;width:80%;height:100%;float:left;">song 6</h3>
+        	<button class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext" style="position:relative;float:right;" onclick="alert('hi');";></button>
+        </article>
+      </li>
+	</ol>
+  </div>

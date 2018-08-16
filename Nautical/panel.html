@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="../media/favicon.png">
+		<title>Nautical</title>
+		<script src="node_modules/jquery1.12.3.min.js"></script>
+		<script src="node_modules/python-shell/index.js"></script>
+<style>
+*{margin:0;padding:0;}
+header{position:absolute;height:70px;width:100%;background-color:skyblue;text-align:center;}
+#content{position:absolute;height:90%;width:100%;top:70px;}
+
+#interface{position:relative;height:100%;width:auto;left:10%;float:left}
+#ANCHOR{position:absolute;height:72%;width:82%;top:15%;left:9%;}
+#toolDropZone{position:relative;height:90%;width:50%;left:15%;float:left;top:5%;}
+
+#appName{position:relative;height:100%;width:30%;float:left;text-align:center;}
+h1{position:relative;margin:auto;top:25%;font-size:30px;color:royalblue;}
+ol{position:relative;height:100%;width:40%;float:right;}
+ol > li{position:relative;height:100%;width:25%;float:left;text-align:center;list-style:none;}
+.tabs{position:relative;margin:auto;top:30%;}
+#run{}
+</style>
+<!--
+<template id="templateOne">
+Themes
+</template>
+-->
+<template id="templateTwo">
+<style>
+#ol{position:relative;height:100%;width:100%;float:left;}
+#ol > li{position:relative;height:25%;width:25%;float:left;text-align:center;list-style:none;}
+.appIcons{position:relative;height:45%;top:20%;width:auto;margin:auto;cursor:pointer;}
+.appConfig{position: relative;height: 50px;float:right;top:70%;cursor:pointer;}
+</style>
+	<ol id="ol">
+		<li id="menu">
+			<img class="appIcons" src="media/menu.png" onclick="checkState('menu', 'menuConfig', 'menuWireframe');"/>
+			<img class="appConfig" id="menuConfig" style="display:none;" src="media/edit.png" onclick="templateSelector('menuToolTemplate');"/>
+		</li>
+		<li id="jukebox">
+			<img class="appIcons" src="media/jukebox.png" onclick="checkState('jukebox', 'jukeboxConfig', 'jukeboxWireframe');"/>
+			<img class="appConfig" id="jukeboxConfig" style="display:none;" src="media/edit.png" onclick="templateSelector('jukeboxToolTemplate');"/>
+		</li>
+		<li id="games">
+			<img class="appIcons" src="media/games.png" onclick="checkState('games', 'gamesConfig', 'gamesWireframe');"/>
+			<img class="appConfig" id="gamesConfig" style="display:none;" src="media/edit.png" onclick=""/>
+		</li>
+		<li id="payments">
+			<img class="appIcons" src="media/payments.png" onclick="checkState('payments', 'paymentsConfig', 'paymentsWireframe');"/>
+			<img class="appConfig" id="paymentsConfig" style="display:none;" src="media/edit.png" onclick=""/>
+		</li>
+		<li id="loyalty">
+			<img class="appIcons" src="media/loyalty.png" onclick="checkState('loyalty', 'loyaltyConfig', 'loyaltyWireframe');"/>
+			<img class="appConfig" id="loyaltyConfig" style="display:none;" src="media/edit.png" onclick=""/>
+		</li>
+		<li id="foodscan">
+			<img class="appIcons" src="media/foodscan.png" onclick="checkState('foodscan', 'foodscanConfig', 'foodscanWireframe');"/>
+			<img class="appConfig" id="foodscanConfig" style="display:none;" src="media/edit.png" onclick=""/>
+		</li>
+<!--		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/menu.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/jukebox.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/menu.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/jukebox.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>-->
+	</ol>
+</template>
+<template id="mainVisor">
+		<head>
+<style>
+#wrapper{position:relative;height:100.5%;width:100%;top:0%;left:0%;overflow: scroll;}
+#mobileTitle{position:relative;height:60px;width:100%;background-color:skyblue}
+h2{display:inline;padding-top:10px;padding-left:5px;font-size:18px;font-weight:500;width:auto;font-family:Lato,sans-serif;color:white;position:relative;top:15px}
+#docks{position:relative;height:99%;width:100%;text-align:center;display:inline-block}
+#dockHolder{position:relative;padding-left:0px;width:100%;height:auto}
+.Adock{position:relative;height:102px;width:100%;background-color:skyblue;margin-top:2px;list-style:none}
+.imgWrap{position:relative;width:40%;height:100%;float:left;display:inline-block}
+.dockIcon{position:relative;height:60%;display:inline-block;margin-top:20px}
+.dockArticle{position:relative;height:100%;width:60%;display:inline-block}
+h3{position:relative;text-align:center;top:30%;}
+p{position:relative;top:35%;}
+.addDock{position:relative;height:100%;width:100%}
+			</style>
+		</head>
+		<body>
+		<div id="wrapper">
+			<div id="docks">
+				<ol id="dockHolder">		
+					<li style="display:none;" class="Adock" id="menuWireframe">
+						<div class="imgWrap">
+							<img id="dockOneIcon" class="dockIcon" src="media/menu.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Menu</h3>
+							<p id="dockText">Search our cuisine</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="jukeboxWireframe">
+						<div class="imgWrap">
+							<img id="dockTwoIcon" class="dockIcon" src="media/jukebox.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Jukebox</h3>
+							<p id="dockText">Select a song</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="gamesWireframe">
+						<div class="imgWrap">
+							<img id="dockThreeIcon" class="dockIcon" src="media/games.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Games</h3>
+							<p id="dockText">Play a game</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="paymentsWireframe">
+						<div class="imgWrap">
+							<img id="dockFourIcon" class="dockIcon" src="media/payments.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Payments</h3>
+							<p id="dockText">Pay</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="loyaltyWireframe">
+						<div class="imgWrap">
+							<img id="dockFiveIcon" class="dockIcon" src="media/loyalty.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Loyalty</h3>
+							<p id="dockText">Collect loyalty points</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="foodscanWireframe">
+						<div class="imgWrap">
+							<img id="dockSixIcon" class="dockIcon" src="media/foodscan.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Foodscan</h3>
+							<p id="dockText">Scan food article</p>
+						</article>
+					</li>
+				</ol>
+			</div>
+		
+		</div><!--end wrapper-->	
+		
+		
+		</body>
+</template>
+<!--
+<template id="templateThree">
+Control
+</template>
+-->
+
+<template id="menuToolTemplate">
+<style>
+#ol{position:relative;height:100%;width:100%;float:left;}
+#ol > li{position:relative;height:30%;width:100%;top:5%;float:left;text-align:center;list-style:none;}
+#themeHolder{position: relative;width: 100%;height: 80%;top: 70px;}
+#navPanel{position: relative;width: 100%;height: 10%;top: 70px;}
+.navs{position:relative;height:98%;cursor:pointer;background-color:skyblue;text-align:center;}
+</style>
+<header>
+	
+</header>
+<form id="oForm" style="position:relative;top:70px;">
+	<ol id="" data-role="listview" data-inset="true" style="list-style: none;height:100%;width:100%">	
+	  <li id="" style="height:100px;width:100%;float:left;text-align:left;">
+        <input name="S1" type="text" placeholder="Spring rolls" onkeyup='(function(){document.getElementById("starter1").innerHTML=this.oForm.S1.value;})(event)'>
+      </li>
+      <li id="" style="height:100px;width:100%;float:left;text-align:left;">
+        <input name="S2" type="text" placeholder="Salad" onkeyup='(function(){document.getElementById("starter2").innerHTML=this.oForm.S2.value;})(event)'>
+      </li>
+      <li id="" style="height:100px;width:100%;float:left;text-align:left;">
+        <input name="S3" type="text" placeholder="Olives" onkeyup='(function(){document.getElementById("starter3").innerHTML=this.oForm.S3.value;})(event)'>
+      </li>
+      <li id="" style="height:100px;width:100%;float:left;text-align:left;">
+        <input name="S4" type="text" placeholder="Olive bread" onkeyup='(function(){document.getElementById("starter4").innerHTML=this.oForm.S4.value;})(event)'>
+      </li>
+      <li id="" style="height:100px;width:100%;float:left;text-align:left;">
+        <input name="S5" type="text" placeholder="Prawns" onkeyup='(function(){document.getElementById("starter5").innerHTML=this.oForm.S5.value;})(event)'>
+      </li>
+	</ol>
+</form>
+</template>
+<template id="menuToolVisor">
+	<div data-role="header">
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" style="position:relative;width:25%;float:left;"onclick="interact('user')"></button>
+    <h1 style="position:relative;width:50%;float:left;text-align:center;">Starters</h1>
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" style="position:relative;width:25%;float:left;"onclick="interact('home', 'home')"></button>
+  </div>
+  <div data-role="main" class="ui-content"style="position:relative;width:100%;float:left;">
+	<ol id="startersList" data-role="listview" data-inset="true" style="list-style: none;height:100%;width:100%">	
+	  <li id="starter1" style="height:100px;width:100%;float:left;text-align:left;">
+        <h3>Spring Rolls</h3>
+      </li>
+      <li id="starter2" style="height:100px;width:100%;float:left;text-align:left;">
+        <h3>Salad</h3>
+      </li>
+      <li id="starter3" style="height:100px;width:100%;float:left;text-align:left;">
+        <h3>Olives</h3>
+      </li>
+      <li id="starter4" style="height:100px;width:100%;float:left;text-align:left;">
+        <h3>Olive bread</h3>
+      </li>
+      <li id="starter5" style="height:100px;width:100%;float:left;text-align:left;">
+        <h3>Prawns</h3>
+      </li>
+	</ol>
+  </div>
+</template>
+
+<template id="jukeboxToolTemplate">JUKETOOL</template>
+<template id="jukeboxToolVisor">JUKEVISOR</template>
+
+
+</head>
+	<body>
+<header>
+	<section id="appName">
+		<h1>Nautical</h1>
+	</section>
+
+	<ol>
+		<li>
+			<!--<input class="tabs" type="button" value="Themes" onclick="templateSelector('tab1');"/>-->
+		</li>
+		<li>
+			<input class="tabs" type="button" value="Docks" onclick="templateSelector('tab2');"/>
+		</li>
+		<li>
+			<!--<input class="tabs" type="button" value="Control" onclick="templateSelector('tab3');"/>-->
+		</li>
+		<li>
+			<input class="tabs" id="run" type="button" value="Ship" onclick="exportDesign();"/>
+		</li>
+	</ol>
+</header>
+
+
+<div id="content">
+
+<section id="interface">		
+	<img style="position:relative; height:100%;" src="media/phone.png">
+	<div id="ANCHOR"></div>
+</section><!--end interface-->
+
+
+<fieldset id="toolDropZone"></fieldset>
+
+
+</div><!-- end content-->
+
+<!--template loader-->
+<script>
+function templateSelector(temp){	
+	
+		var t = document.querySelector("#toolDropZone");
+		var a = document.querySelector("#ANCHOR");
+
+	var templateOne = document.querySelector("#templateOne");
+	
+	var templateTwo = document.querySelector("#templateTwo");
+	var mainVisor = document.querySelector("#mainVisor");
+	
+	var templateThree = document.querySelector("#templateThree");
+
+		var menuToolTemplate = document.querySelector("#menuToolTemplate");
+		var menuToolVisor = document.querySelector("#menuToolVisor");
+		var jukeboxToolTemplate = document.querySelector("#jukeboxToolTemplate")
+		var jukeboxToolVisor = document.querySelector("#jukeboxToolVisor");
+
+	
+		while(t.firstChild) {
+    		t.removeChild(t.firstChild);
+			}
+
+			switch(temp){
+				case 'tab1':
+					var cloneTemp = document.importNode(templateOne.content, true)
+					t.appendChild(cloneTemp);
+					break;
+				case 'tab2':
+					var cloneTemp = document.importNode(templateTwo.content, true)
+					t.appendChild(cloneTemp);
+					
+					while(a.firstChild) {
+    					a.removeChild(a.firstChild);
+					}
+					
+					var cloneVisor = document.importNode(mainVisor.content, true)
+					a.appendChild(cloneVisor);
+					break;
+				case 'tab3':
+					var cloneTemp = document.importNode(templateThree.content, true)
+					t.appendChild(cloneTemp);
+					break;
+				case 'menuToolTemplate':
+					var cloneTemp = document.importNode(menuToolTemplate.content, true)
+					t.appendChild(cloneTemp);
+					
+					while(a.firstChild) {
+    					a.removeChild(a.firstChild);
+					}
+					var cloneVisor = document.importNode(menuToolVisor.content, true)
+					a.appendChild(cloneVisor);
+					break;
+				case 'jukeboxToolTemplate':
+					var cloneTemp = document.importNode(jukeboxToolTemplate.content, true)
+					t.appendChild(cloneTemp);
+					
+					while(a.firstChild) {
+    					a.removeChild(a.firstChild);
+					}
+					var cloneVisor = document.importNode(jukeboxToolVisor.content, true)
+					a.appendChild(cloneVisor);
+					break;
+			
+			}
+	}
+</script>
+<!--add a microapp-->
+<script>
+var mappArray = {"menu":"0","jukebox":"0","games":"0","payments":"0","loyalty":"0","foodscan":"0"};
+sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+
+function checkState(mapp, config, wireframe){
+	var mappArray = JSON.parse(sessionStorage.getItem('mappArray'));
+	if(mappArray[mapp] == "1"){
+		mappArray[mapp] = "0";
+		sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+		document.getElementById(wireframe).style.display="none";
+		document.getElementById(config).style.display="none";
+		document.getElementById(mapp).style.backgroundColor="";
+	}else if(mappArray[mapp] == "0"){
+		mappArray[mapp] = "1";
+		sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+		document.getElementById(wireframe).style.display="";
+		document.getElementById(config).style.display="";
+		document.getElementById(mapp).style.backgroundColor="skyblue";
+	}
+}
+</script>
+
+<!--configure a microapp-->
+<script>
+//var configurationArray = {"menu":{"theme":"", "parts": "", "values":""}, "jukebox":{"":""}};
+//sessionStorage.setItem('configurationArray', JSON.stringify(configurationArray));
+/*
+function checkTheme(mapp, theme){
+	var configurationArray = JSON.parse(sessionStorage.getItem('configurationArray'));
+
+	switch(theme){
+		case "A":
+			document.getElementById('themeA').style.backgroundColor="skyblue";
+			configurationArray[mapp]['theme'] = "A";
+			sessionStorage.setItem('configurationArray', JSON.stringify(configurationArray));
+			break;
+		case "B":
+			document.getElementById('themeB').style.backgroundColor="skyblue";
+			configurationArray[mapp]['theme'] = "B";
+			sessionStorage.setItem('configurationArray', JSON.stringify(configurationArray));
+			break;
+		case "C":
+			document.getElementById('themeC').style.backgroundColor="skyblue";
+			configurationArray[mapp]['theme'] = "C";
+			sessionStorage.setItem('configurationArray', JSON.stringify(configurationArray));
+			break;	
+		}
+		
+}*/
+</script>
+<!--export mobile ANCHOR-->
+<script>
+function exportDesign(){
+
+//webStorage for long term persistance in order!
+var mappArray = JSON.parse(sessionStorage.getItem('mappArray'));
+
+var shell = new PythonShell('python/builder.py', {mode: 'json'});
+shell.send({"mappArray":mappArray});
+shell.end(alert("App updated successfully"));
+
+}
+
+</script>	
+
+	</body>
+</html>

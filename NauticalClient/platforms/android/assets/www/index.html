@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.6/socket.io.min.js"></script>
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <title>Nautical</title>        
+    <style>
+    *{margin: 0;padding: 0;}
+    #ANCHOR{position:absolute;float:left;width:100%;height:100%;}
+    </style>
+    
+    <template id="lighthouse">
+    <p style="display:none;">lighthouse</p>
+	<head>
+    	<style>
+    		*{margin: 0;padding: 0;}
+    		header{position:absolute;height:50px;width:100%;background-color:white;text-align:center;}
+    		h1{position:relative;height:100%;width:100%;font-size:20px;float:center;}
+    		
+    		#slide-show{position:relative;height:85%;width:100%;top:50px;}
+    		#img{position:relative;height:100%;width:100%;}
+    		
+    		#services{position:relative;width:100%;height:70px;}
+    		ol{position:relative;height:100%;width:100%;float:left;}
+    		ol > li{position:relative;height:100%;width:100%;float:left;text-align:center;list-style:none;}
+    		.service{position:relative;height:100%;width:20%;bottom:20px;float:left;}
+    		.service_img{position:relative;height:70%;width:70%;top:20%;}
+    		
+    		#contact{position:relative;width:100%;height:50px;text-align:center;}
+    	</style>
+</head>
+<body>
+	<header>
+		<h1>My Business</h1>
+	</header>
+	<div id="slide-show">
+		<img id="img" src="images/exBar.png" />
+	</div>
+	<div id="services">
+		<ol>
+			<li class="service">
+				<img class="service_img" src="images/menuWhite.png"/>
+			</li>
+			<li class="service">
+				<img class="service_img" src="images/jukeboxWhite.png"/>
+			</li>
+			<li class="service">
+				<img class="service_img" src="images/gamesWhite.png"/>
+			</li>
+			<li class="service">
+				<img class="service_img" src="images/paymentsWhite.png"/>
+			</li>
+			<li class="service">
+				<img class="service_img" src="images/loyaltyWhite.png"/>
+			</li>
+		</ol>
+	</div>
+	<div id="contact">
+		<h3>Map & Contact</h3>
+	</div>
+</body>
+    </template>
+    
+    <template id="cameraInstance">    
+    <head>
+        <style>
+		#jumpCamera{border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #008CBA;
+    height:70px;}
+    #cameraTarget{position:relative;width:100%;height:100%;background-color:skyblue;}
+        </style>
+	</head>
+	<body>
+	<!--CAMERA PLUGIN-->
+	<script>
+   cordova.plugins.barcodeScanner.scan(
+  	function (result) {
+    if(!result.cancelled)
+    {
+    	//alert("Barcode: " + result.text);
+		templateSelector('productPage');
+    	interact('foodscan', result.text);
+    }
+    else
+    {
+      alert("You have cancelled scan");
+    }
+  },
+  function (error) {
+      alert("Scanning failed: " + error);
+  }
+);
+	</script>
+	
+	
+	</body>
+	</template>   
+	<template id="productPage">
+   <head>
+        <style>
+		#header{position:relative;height:55%;width:98%;border-style:dotted;}
+		#prodNameDrop{position:relative;width:96%;left:1%;height:70px;border-style:dotted;}
+		h3{position:relative;margin-top:0px;margin-bottom:0px;top:6px;text-align:center;font-size: 18px;}
+		h4{position:relative;margin-top:0px;margin-bottom:0px;top:6px;text-align:center;size:10px;}
+		#prodImgDrop{position:relative;width:auto;left:1%;height:auto;border-style:dotted;margin-top: 10px;}
+		#ingred{position: relative;width: 50%;height: 100%;display: inline-block;float:right;margin-top: 10px;right:2%;}
+		
+		#bod{position:relative;width:98%;height:20%;border-style:dotted;margin-top:5px;}
+		ol{position:relative;height:100%;width:100%;float:left;top: -75px;}
+		ol > li{position:relative;height:100%;width:50%;float:left;text-align:center;list-style:none;}
+		
+		#userSubmit{border:none;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;width:40%;cursor:pointer;background-color:#008CBA;height:70px}
+        </style>
+	</head>
+	<body>
+	
+	<div id="header">
+	
+			<h3 id="prodNameDrop">Product Name Here</h3>
+
+			<img id="prodImgDrop" src=""></img>
+			<section id="ingred">
+<table border="1">
+<tr>
+<td><u>Ingredients</u></td>
+</tr>
+<tr>
+<td id="ingredients"></td>
+</tr>
+</table>
+		</section>
+		
+	</div><!--end header-->
+	
+	<div id="bod">
+		<ol id="ol">
+			<li id="nutrients">
+				<table border="1">
+					<tr>
+						<td><u>Nutrients</u></td>
+					</tr>
+					<tr>
+						<td>Saturated-fat</td>
+						<td id="satfat"></td>
+					</tr>
+					<tr>
+						<td>Sugars</td>
+						<td id="sugar"></td>
+					</tr>
+					<tr>
+						<td>Salt</td>
+						<td id="salt"></td>
+					</tr>
+					<tr>
+						<td>Fat</td>
+						<td id="fat"></td>
+					</tr>
+				</table>
+			</li>
+			<li id="allers">
+				<table border="1">
+					<tr>
+						<td><u>Allergens</u></td>
+					</tr>
+					<tr>
+						<td id="allergens"></td>
+					</tr>
+				</table>
+			</li>
+		</ol>
+	</div>
+
+	</div><!--end bod-->
+	
+	<section id="back">
+		<input style="float:left;" id="userSubmit" type="button" value="Allergies" onclick="templateSelector('userAllergy');"/>
+		<input style="float:right;" id="userSubmit" type="button" value="Rescan" onclick="templateSelector('camera');"/>
+	</section>
+	
+	</body>
+    </template>
+    
+    </head>
+    <body onload="onLoad();">
+
+	<div id="ANCHOR"></div>
+
+
+<!--ondeviceready & host discovery-->
+<script>
+var userID = 1;
+
+function onSuccess(position) {
+        lat = position.coords.latitude;
+    	lon = position.coords.longitude;
+    	gps = {"lat":lat, "lon":lon};
+    	return gps
+    }
+var gps = navigator.geolocation.watchPosition(onSuccess);
+//var gps = navigator.geolocation.getCurrentPosition(onSuccess);
+
+function onLoad(){
+	document.addEventListener("deviceready", onDeviceReady, false);
+	}
+	//host discovery
+function onDeviceReady(){
+	//Dynamic host discovery?
+	url = "http://192.168.1.118:7777/";
+	socket = io.connect(url);
+	socket.on("connect_error", function(){
+		console.log("err looking for host");
+		//poseidon lighthouse operation && better control flow
+		//alert("No Harbour on this WiFi. Here is a Lighthouse");
+		templateSelector("lighthouse");
+		});
+	socket.on("connect", function(){
+		socket.emit("add", JSON.stringify({"userID":userID, "gps":gps}));
+		});
+	socket.on('msg', function serverMessage(msg){
+			console.log(msg);
+			document.getElementById("ANCHOR").innerHTML=msg['content'];
+		});
+
+//EVENT LISTENERS		
+document.addEventListener("pause", function() {
+    socket.emit("remove", JSON.stringify({"userID":userID, "gps":gps}));
+});
+document.addEventListener("resume", function() {
+    socket.emit("add", JSON.stringify({"userID":userID, "gps":gps}));
+});
+
+}
+</script>
+
+<!--Interaction script-->
+<script>
+function interact(microapi, data){
+	socket.emit(microapi, JSON.stringify({"userID":userID, "gps":gps, "userPayload":data}));
+	socket.on('msg', function serverMessage(msg){
+		console.log(msg);
+		document.getElementById("ANCHOR").innerHTML=msg['content'];
+	});
+}
+</script>
+
+
+<!--template loader-->
+<script>
+function templateSelector(temp){	
+	
+	var ANCHOR = document.querySelector("#ANCHOR");
+	var lighthouse = document.querySelector("#lighthouse");
+	var cameraInstance = document.querySelector("#cameraInstance");
+	var productPage = document.querySelector("#productPage");
+	
+		while (ANCHOR.firstChild) {
+    		ANCHOR.removeChild(ANCHOR.firstChild);
+			}
+	
+		if(temp=='lighthouse'){
+			var cloneTemp = document.importNode(lighthouse.content, true);
+			ANCHOR.appendChild(cloneTemp);
+			}else if(temp=='camera'){
+			var cloneTemp = document.importNode(cameraInstance.content, true);
+			ANCHOR.appendChild(cloneTemp);
+			}else if(temp=='productPage'){
+			var cloneTemp = document.importNode(productPage.content, true);
+			ANCHOR.appendChild(cloneTemp);
+			}
+	}
+</script>
+</body>
+</html>

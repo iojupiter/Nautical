@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="../media/favicon.png">
+		<title>Nautical</title>
+		<script src="node_modules/jquery1.12.3.min.js"></script>
+		<script src="node_modules/python-shell/index.js"></script>
+<style>
+*{margin:0;padding:0;}
+header{position:absolute;height:70px;width:100%;background-color:skyblue;text-align:center;}
+#content{position:absolute;height:90%;width:100%;top:70px;}
+
+#interface{position:relative;height:100%;width:auto;left:10%;float:left}
+#ANCHOR{position:absolute;height:72%;width:82%;top:15%;left:9%;}
+#toolDropZone{position:relative;height:90%;width:50%;left:15%;float:left;top:5%;}
+
+#appName{position:relative;height:100%;width:30%;float:left;text-align:center;}
+h1{position:relative;margin:auto;top:25%;font-size:30px;color:royalblue;}
+ol{position:relative;height:100%;width:40%;float:right;}
+ol > li{position:relative;height:100%;width:25%;float:left;text-align:center;list-style:none;}
+.tabs{position:relative;margin:auto;top:30%;}
+#run{}
+</style>
+<!--
+<template id="templateOne">
+Themes
+</template>
+-->
+<template id="templateTwo">
+<style>
+#ol{position:relative;height:100%;width:100%;float:left;}
+#ol > li{position:relative;height:25%;width:25%;float:left;text-align:center;list-style:none;}
+.appIcons{position:relative;height:45%;top:20%;width:auto;margin:auto;cursor:pointer;}
+</style>
+	<ol id="ol">
+		<li id="menu">
+			<img class="appIcons" src="media/menu.png" onclick="checkState('menu', 'menuWireframe');"/>
+		</li>
+		<li id="jukebox">
+			<img class="appIcons" src="media/jukebox.png" onclick="checkState('jukebox', 'jukeboxWireframe');"/>
+		</li>
+		<li id="games">
+			<img class="appIcons" src="media/games.png" onclick="checkState('games', 'gamesWireframe');"/>
+		</li>
+		<li id="payments">
+			<img class="appIcons" src="media/payments.png" onclick="checkState('payments', 'paymentsWireframe');"/>
+		</li>
+		<li id="loyalty">
+			<img class="appIcons" src="media/loyalty.png" onclick="checkState('loyalty', 'loyaltyWireframe');"/>
+		</li>
+		<li id="foodscan">
+			<img class="appIcons" src="media/foodscan.png" onclick="checkState('foodscan', 'foodscanWireframe');"/>
+		</li>
+<!--		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/menu.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/jukebox.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/menu.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/jukebox.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/games.png" onclick=""/>
+		</li>
+		<li>
+			<img class="appIcons" src="media/payments.png" onclick=""/>
+		</li>-->
+	</ol>
+</template>
+<!--
+<template id="templateThree">
+Control
+</template>
+-->
+</head>
+	<body>
+<header>
+	<section id="appName">
+		<h1>Nautical</h1>
+	</section>
+
+	<ol>
+		<li>
+			<!--<input class="tabs" type="button" value="Themes" onclick="templateSelector('tab1');"/>-->
+		</li>
+		<li>
+			<input class="tabs" type="button" value="Docks" onclick="templateSelector('tab2');"/>
+		</li>
+		<li>
+			<!--<input class="tabs" type="button" value="Control" onclick="templateSelector('tab3');"/>-->
+		</li>
+		<li>
+			<input class="tabs" id="run" type="button" value="Ship" onclick="exportDesign();"/>
+		</li>
+	</ol>
+</header>
+
+
+<div id="content">
+
+<section id="interface">		
+	<img style="position:relative; height:100%;" src="media/phone.png">
+	<div id="ANCHOR">
+
+	<HTML !DOCTYPE html>
+		<head>
+<style>
+#wrapper{position:relative;height:100.5%;width:100%;top:0%;left:0%;overflow: scroll;}
+#mobileTitle{position:relative;height:60px;width:100%;background-color:skyblue}
+h2{display:inline;padding-top:10px;padding-left:5px;font-size:18px;font-weight:500;width:auto;font-family:Lato,sans-serif;color:white;position:relative;top:15px}
+#docks{position:relative;height:99%;width:100%;text-align:center;display:inline-block}
+#dockHolder{position:relative;padding-left:0px;width:100%;height:auto}
+.Adock{position:relative;height:102px;width:100%;background-color:skyblue;margin-top:2px;list-style:none}
+.imgWrap{position:relative;width:40%;height:100%;float:left;display:inline-block}
+.dockIcon{position:relative;height:60%;display:inline-block;margin-top:20px}
+.dockArticle{position:relative;height:100%;width:60%;display:inline-block}
+h3{position:relative;text-align:center;top:30%;}
+p{position:relative;top:35%;}
+.addDock{position:relative;height:100%;width:100%}
+			</style>
+		</head>
+		<body>
+		<div id="wrapper">
+			<div id="docks">
+				<ol id="dockHolder">		
+					<li style="display:none;" class="Adock" id="menuWireframe">
+						<div class="imgWrap">
+							<img id="dockOneIcon" class="dockIcon" src="media/menu.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Menu</h3>
+							<p id="dockText">Search our cuisine</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="jukeboxWireframe">
+						<div class="imgWrap">
+							<img id="dockTwoIcon" class="dockIcon" src="media/jukebox.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Jukebox</h3>
+							<p id="dockText">Select a song</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="gamesWireframe">
+						<div class="imgWrap">
+							<img id="dockThreeIcon" class="dockIcon" src="media/games.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Games</h3>
+							<p id="dockText">Play a game</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="paymentsWireframe">
+						<div class="imgWrap">
+							<img id="dockFourIcon" class="dockIcon" src="media/payments.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Payments</h3>
+							<p id="dockText">Pay</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="loyaltyWireframe">
+						<div class="imgWrap">
+							<img id="dockFiveIcon" class="dockIcon" src="media/loyalty.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Loyalty</h3>
+							<p id="dockText">Collect loyalty points</p>
+						</article>
+					</li>
+					<li style="display:none;" class="Adock" id="foodscanWireframe">
+						<div class="imgWrap">
+							<img id="dockSixIcon" class="dockIcon" src="media/foodscan.png"/>
+						</div>
+						<article class="dockArticle"> 
+							<h3 id="dockTitle">Foodscan</h3>
+							<p id="dockText">Scan food article</p>
+						</article>
+					</li>
+				</ol>
+			</div>
+		
+		</div><!--end wrapper-->	
+		
+		
+		</body>
+	</html>
+
+	</div>	
+</section><!--end interface-->
+
+
+<fieldset id="toolDropZone"></fieldset>
+
+
+</div><!-- end content-->
+
+<!--template loader-->
+<script>
+function templateSelector(temp){	
+	
+	var toolDropZone = document.querySelector("#toolDropZone");
+	var templateOne = document.querySelector("#templateOne");
+	var templateTwo = document.querySelector("#templateTwo");
+	var templateThree = document.querySelector("#templateThree");
+
+	
+		while (toolDropZone.firstChild) {
+    		toolDropZone.removeChild(toolDropZone.firstChild);
+			}
+	
+		if(temp=='tab1'){
+			var cloneTemp = document.importNode(templateOne.content, true);
+			toolDropZone.appendChild(cloneTemp);
+			}else if(temp=='tab2'){
+				var cloneTemp = document.importNode(templateTwo.content, true);
+				toolDropZone.appendChild(cloneTemp);
+					}else if(temp=='tab3'){
+						var cloneTemp = document.importNode(templateThree.content, true);
+						toolDropZone.appendChild(cloneTemp);
+							}
+	}
+</script>
+<!--add a microapp-->
+<script>
+var mappArray = {"menu":"0","jukebox":"0","games":"0","payments":"0","loyalty":"0","foodscan":"0"};
+sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+
+function checkState(mapp, wireframe){
+	var mappArray = JSON.parse(sessionStorage.getItem('mappArray'));
+	if(mappArray[mapp] == "1"){
+		mappArray[mapp] = "0";
+		sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+		document.getElementById(wireframe).style.display="none";
+		document.getElementById(mapp).style.backgroundColor="";
+	}else if(mappArray[mapp] == "0"){
+		mappArray[mapp] = "1";
+		sessionStorage.setItem('mappArray', JSON.stringify(mappArray));
+		document.getElementById(wireframe).style.display="";
+		document.getElementById(mapp).style.backgroundColor="skyblue";
+	}
+}
+</script>
+<!--export mobile ANCHOR-->
+<script>
+function exportDesign(){
+
+var mappArray = JSON.parse(sessionStorage.getItem('mappArray'));
+
+var shell = new PythonShell('python/builder.py', {mode: 'json'});
+shell.send({"mappArray":mappArray});
+shell.end(alert("App updated successfully"));
+
+}
+
+</script>	
+
+	</body>
+</html>

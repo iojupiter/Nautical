@@ -1,0 +1,64 @@
+   <div data-role="header">
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" style="position:relative;width:25%;float:left;"onclick="interact('user')"></button>
+    <h1 style="position:relative;width:50%;float:left;text-align:center;">Home</h1>
+    <button class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" style="position:relative;width:25%;float:left;"onclick="interact('home', 'home')"></button>
+  </div>
+
+  <div data-role="main" class="ui-content" style="position:relative;width:91%;float:left;">
+    <ol data-role="listview" data-inset="true" style="list-style: none;">									
+      <li id="menu" style="display:none;">
+        <button class="ui-btn" onclick="interact('menu', 'menu')">
+        <img style="height:60px;" src="images/menu.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Menu</h2>
+        	<p>Search our cuisine</p>
+        </article>
+        </button>
+      </li>
+      <li id="jukebox" style="display:none;">
+        <button class="ui-btn" onclick="interact('jukebox', 'jukebox')">
+        <img style="height:60px;" src="images/jukebox.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Jukebox</h2>
+        	<p>Select a song</p>
+    	</article>
+        </button>
+      </li>
+      <li id="games" style="display:none;">
+        <button class="ui-btn" onclick="interact('games', 'games')">
+        <img style="height:60px;" src="images/games.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Games</h2>
+        	<p>Play a game</p>
+        </article>
+        </button>
+      </li>
+      <li id="payments" style="display:none;">
+        <button class="ui-btn" onclick="interact('payments', 'payments')">
+        <img style="height:60px;" src="images/payments.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Payments</h2>
+        	<p>Settle a payment</p>
+        </article>
+        </button>
+      </li>
+      <li id="loyalty" style="display:none;">
+        <button class="ui-btn" onclick="interact('loyalty', 'loyalty')">
+        <img style="height:60px;" src="images/loyalty.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Loyalty</h2>
+        	<p>Collect points</p>
+        </article>
+        </button>
+      </li>
+    <li id="foodscan" style="display:none;">
+        <button class="ui-btn" onclick="interact('foodscan', 'foodscan')">
+        <img style="height:60px;" src="images/foodscan.png" />
+        <article style="width:50%;float:right;">
+        	<h2>Foodscan</h2>
+        	<p>Scan food article</p>
+        </article>
+        </button>
+      </li>
+	</ol>
+  </div>

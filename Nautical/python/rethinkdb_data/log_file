@@ -1,0 +1,879 @@
+2016-07-11T12:49:03.373330000 0.313574s notice: Recursively removing directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data/tmp
+2016-07-11T12:49:03.375438000 0.315687s notice: Initializing directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-11T12:49:03.375561000 0.315804s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data' did not already exist or is empty.)
+2016-07-11T12:49:03.375609000 0.315851s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-11T12:49:03.383154000 0.323397s notice: Running on Darwin 15.3.0 x86_64
+2016-07-11T12:49:03.383226000 0.323469s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-11T12:49:03.449111000 0.389354s info: Automatically using cache size of 100 MB
+2016-07-11T12:49:03.449123000 0.389365s warn: Cache size does not leave much memory for server and query overhead (available memory: 697 MB).
+2016-07-11T12:49:03.449131000 0.389373s warn: Cache size is very low and may impact performance.
+2016-07-11T12:49:03.450259000 0.390501s notice: Listening for intracluster connections on port 29015
+2016-07-11T12:49:03.451673000 0.391915s notice: Listening for client driver connections on port 28015
+2016-07-11T12:49:03.451818000 0.392061s notice: Listening for administrative HTTP connections on port 8080
+2016-07-11T12:49:03.451821000 0.392063s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-11T12:49:03.451828000 0.392070s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-11T12:49:03.451830000 0.392072s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-11T12:49:03.451835000 0.392077s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-11T12:49:03.451839000 0.392082s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-11T12:49:04.855750000 1.796036s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-11T12:56:55.048683000 471.998919s info: Table 22aedf91-b959-4994-81f0-0788b7fb0cb2: Starting a new Raft election for term 1.
+2016-07-11T12:56:55.049472000 471.999709s info: Table 22aedf91-b959-4994-81f0-0788b7fb0cb2: Added replica on this server.
+2016-07-11T12:56:55.059474000 472.009711s info: Table 22aedf91-b959-4994-81f0-0788b7fb0cb2: This server is Raft leader for term 1. Latest log index is 0.
+2016-07-11T12:57:39.197790000 516.148968s notice: Removing file /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data/22aedf91-b959-4994-81f0-0788b7fb0cb2
+2016-07-11T12:57:39.197800000 516.148978s info: Table 22aedf91-b959-4994-81f0-0788b7fb0cb2: Deleted the table.
+2016-07-11T12:58:05.697934000 542.649628s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 1.
+2016-07-11T12:58:05.698125000 542.649819s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Added replica on this server.
+2016-07-11T12:58:05.707737000 542.659432s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 1. Latest log index is 0.
+2016-07-11T14:30:22.815226000 6079.885767s notice: Server got SIGINT from pid 546, uid 501; shutting down...
+2016-07-11T14:30:22.815515000 6079.886056s notice: Shutting down client connections...
+2016-07-11T14:30:22.815848000 6079.886389s notice: All client connections closed.
+2016-07-11T14:30:22.815858000 6079.886398s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-11T14:30:22.819481000 6079.890021s notice: Storage engine shut down.
+2016-07-12T09:54:17.825901000 0.340953s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-12T09:54:17.836831000 0.351874s notice: Running on Darwin 15.3.0 x86_64
+2016-07-12T09:54:17.836916000 0.351957s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-12T09:54:17.862163000 0.377205s info: Automatically using cache size of 100 MB
+2016-07-12T09:54:17.862181000 0.377222s warn: Cache size does not leave much memory for server and query overhead (available memory: 785 MB).
+2016-07-12T09:54:17.862189000 0.377230s warn: Cache size is very low and may impact performance.
+2016-07-12T09:54:17.863886000 0.378927s notice: Listening for intracluster connections on port 29015
+2016-07-12T09:54:17.891735000 0.406776s notice: Listening for client driver connections on port 28015
+2016-07-12T09:54:17.891938000 0.406979s notice: Listening for administrative HTTP connections on port 8080
+2016-07-12T09:54:17.891942000 0.406983s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-12T09:54:17.891944000 0.406985s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-12T09:54:17.891946000 0.406987s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-12T09:54:17.891959000 0.406999s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-12T09:54:17.891961000 0.407002s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-12T09:54:18.908624000 1.423708s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 2.
+2016-07-12T09:54:18.926930000 1.442014s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 2. Latest log index is 2.
+2016-07-12T09:54:20.668119000 3.183246s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-12T10:45:07.656094000 3050.238160s notice: Server got SIGINT from pid 546, uid 501; shutting down...
+2016-07-12T10:45:07.656665000 3050.238731s notice: Shutting down client connections...
+2016-07-12T10:45:07.657025000 3050.239090s notice: All client connections closed.
+2016-07-12T10:45:07.657037000 3050.239102s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-12T10:45:07.666606000 3050.248672s notice: Storage engine shut down.
+2016-07-12T16:08:45.268755000 0.671894s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-12T16:08:45.273843000 0.676978s notice: Running on Darwin 15.3.0 x86_64
+2016-07-12T16:08:45.273907000 0.677041s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-12T16:08:45.295815000 0.698949s info: Automatically using cache size of 100 MB
+2016-07-12T16:08:45.295829000 0.698963s warn: Cache size does not leave much memory for server and query overhead (available memory: 637 MB).
+2016-07-12T16:08:45.295836000 0.698969s warn: Cache size is very low and may impact performance.
+2016-07-12T16:08:45.297482000 0.700616s notice: Listening for intracluster connections on port 29015
+2016-07-12T16:08:45.342130000 0.745264s notice: Listening for client driver connections on port 28015
+2016-07-12T16:08:45.342287000 0.745421s notice: Listening for administrative HTTP connections on port 8080
+2016-07-12T16:08:45.342291000 0.745424s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-12T16:08:45.342293000 0.745426s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-12T16:08:45.342304000 0.745437s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-12T16:08:45.342306000 0.745439s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-12T16:08:45.342308000 0.745442s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-12T16:08:45.704385000 1.107519s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-07-12T16:08:46.485816000 1.888951s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 3.
+2016-07-12T16:08:46.499410000 1.902544s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 3. Latest log index is 5.
+2016-07-12T16:11:13.035828000 148.442392s notice: Server got SIGINT from pid 546, uid 501; shutting down...
+2016-07-12T16:11:13.036154000 148.442717s notice: Shutting down client connections...
+2016-07-12T16:11:13.036424000 148.442987s notice: All client connections closed.
+2016-07-12T16:11:13.036437000 148.443000s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-12T16:11:13.042950000 148.449513s notice: Storage engine shut down.
+2016-07-13T08:49:55.083084000 120.224892s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-13T08:49:55.092725000 120.234517s notice: Running on Darwin 15.3.0 x86_64
+2016-07-13T08:49:55.092800000 120.234590s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-13T08:49:55.117223000 120.259014s info: Automatically using cache size of 1483 MB
+2016-07-13T08:49:55.118411000 120.260201s notice: Listening for intracluster connections on port 29015
+2016-07-13T08:49:55.154015000 120.295805s notice: Listening for client driver connections on port 28015
+2016-07-13T08:49:55.154199000 120.295989s notice: Listening for administrative HTTP connections on port 8080
+2016-07-13T08:49:55.154202000 120.295992s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-13T08:49:55.154204000 120.295994s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-13T08:49:55.154206000 120.295995s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-13T08:49:55.154222000 120.296011s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-13T08:49:55.154224000 120.296013s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-13T08:49:56.297684000 121.439562s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-13T08:49:56.798228000 121.940106s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 4.
+2016-07-13T08:49:56.810711000 121.952588s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 4. Latest log index is 8.
+2016-07-13T09:07:50.092600000 1195.272278s notice: Server got SIGINT from pid 387, uid 501; shutting down...
+2016-07-13T09:07:50.092819000 1195.272496s notice: Shutting down client connections...
+2016-07-13T09:07:50.093018000 1195.272695s notice: All client connections closed.
+2016-07-13T09:07:50.093031000 1195.272707s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-13T09:07:50.200035000 1195.379712s notice: Storage engine shut down.
+2016-07-14T08:59:36.534827000 0.300915s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-14T08:59:36.539135000 0.305220s notice: Running on Darwin 15.3.0 x86_64
+2016-07-14T08:59:36.539194000 0.305279s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-14T08:59:36.569867000 0.335952s info: Automatically using cache size of 487 MB
+2016-07-14T08:59:36.571447000 0.337532s notice: Listening for intracluster connections on port 29015
+2016-07-14T08:59:36.605624000 0.371708s notice: Listening for client driver connections on port 28015
+2016-07-14T08:59:36.605852000 0.371937s notice: Listening for administrative HTTP connections on port 8080
+2016-07-14T08:59:36.605861000 0.371945s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-14T08:59:36.605863000 0.371948s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-14T08:59:36.605865000 0.371949s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-14T08:59:36.605877000 0.371961s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-14T08:59:36.605879000 0.371963s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-14T08:59:38.371001000 2.137125s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 5.
+2016-07-14T08:59:38.385058000 2.151183s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 5. Latest log index is 11.
+2016-07-14T08:59:39.349026000 3.115150s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-14T10:16:10.667307000 0.345004s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-14T10:16:10.680518000 0.358192s notice: Running on Darwin 15.3.0 x86_64
+2016-07-14T10:16:10.680604000 0.358277s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-14T10:16:10.728770000 0.406443s info: Automatically using cache size of 100 MB
+2016-07-14T10:16:10.728853000 0.406525s warn: Cache size does not leave much memory for server and query overhead (available memory: 958 MB).
+2016-07-14T10:16:10.728868000 0.406540s warn: Cache size is very low and may impact performance.
+2016-07-14T10:16:10.731304000 0.408977s notice: Listening for intracluster connections on port 29015
+2016-07-14T10:16:10.767736000 0.445410s notice: Listening for client driver connections on port 28015
+2016-07-14T10:16:10.768492000 0.446164s notice: Listening for administrative HTTP connections on port 8080
+2016-07-14T10:16:10.768501000 0.446173s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-14T10:16:10.768508000 0.446180s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-14T10:16:10.768515000 0.446187s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-14T10:16:10.768550000 0.446222s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-14T10:16:10.768558000 0.446230s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-14T10:16:11.845696000 1.523369s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 6.
+2016-07-14T10:16:11.859936000 1.537609s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 6. Latest log index is 14.
+2016-07-14T10:16:13.785403000 3.463121s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-14T10:31:21.905315000 911.603333s notice: Server got SIGINT from pid 5106, uid 501; shutting down...
+2016-07-14T10:31:21.906005000 911.604023s notice: Shutting down client connections...
+2016-07-14T10:31:21.906366000 911.604384s notice: All client connections closed.
+2016-07-14T10:31:21.906378000 911.604395s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-14T10:31:21.916217000 911.614236s notice: Storage engine shut down.
+2016-07-14T10:52:31.931597000 0.255987s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-14T10:52:31.941884000 0.266269s notice: Running on Darwin 15.3.0 x86_64
+2016-07-14T10:52:31.941948000 0.266332s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-14T10:52:31.974157000 0.298540s info: Automatically using cache size of 220 MB
+2016-07-14T10:52:31.975645000 0.300029s notice: Listening for intracluster connections on port 29015
+2016-07-14T10:52:31.999655000 0.324039s notice: Listening for client driver connections on port 28015
+2016-07-14T10:52:31.999879000 0.324263s notice: Listening for administrative HTTP connections on port 8080
+2016-07-14T10:52:31.999886000 0.324269s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-14T10:52:31.999888000 0.324271s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-14T10:52:31.999890000 0.324273s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-14T10:52:31.999902000 0.324285s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-14T10:52:31.999904000 0.324287s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-14T10:52:33.220545000 1.544973s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-14T10:52:33.604065000 1.928492s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 7.
+2016-07-14T10:52:33.623384000 1.947811s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 7. Latest log index is 17.
+2016-07-14T12:15:20.331424000 4968.399668s notice: Server got SIGINT from pid 5106, uid 501; shutting down...
+2016-07-14T12:15:20.331722000 4968.399965s notice: Shutting down client connections...
+2016-07-14T12:15:20.332054000 4968.400298s notice: All client connections closed.
+2016-07-14T12:15:20.332069000 4968.400312s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-14T12:15:20.337777000 4968.406020s notice: Storage engine shut down.
+2016-07-15T09:44:27.600614000 120.283785s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-15T09:44:27.611619000 120.294784s notice: Running on Darwin 15.3.0 x86_64
+2016-07-15T09:44:27.611667000 120.294830s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-15T09:44:27.660608000 120.343772s info: Automatically using cache size of 100 MB
+2016-07-15T09:44:27.660621000 120.343784s warn: Cache size does not leave much memory for server and query overhead (available memory: 932 MB).
+2016-07-15T09:44:27.660629000 120.343793s warn: Cache size is very low and may impact performance.
+2016-07-15T09:44:27.663139000 120.346303s notice: Listening for intracluster connections on port 29015
+2016-07-15T09:44:27.705086000 120.388250s notice: Listening for client driver connections on port 28015
+2016-07-15T09:44:27.705272000 120.388435s notice: Listening for administrative HTTP connections on port 8080
+2016-07-15T09:44:27.705275000 120.388438s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-15T09:44:27.705276000 120.388440s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-15T09:44:27.705278000 120.388442s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-15T09:44:27.705289000 120.388453s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-15T09:44:27.705292000 120.388455s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-15T09:44:29.393435000 122.076660s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-15T09:44:29.526965000 122.210190s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 8.
+2016-07-15T09:44:29.545295000 122.228520s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 8. Latest log index is 20.
+2016-07-15T10:54:44.942374000 4337.721501s notice: Server got SIGINT from pid 408, uid 501; shutting down...
+2016-07-15T10:54:44.942743000 4337.721869s notice: Shutting down client connections...
+2016-07-15T10:54:44.942981000 4337.722108s notice: All client connections closed.
+2016-07-15T10:54:44.942997000 4337.722123s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-15T10:54:44.948308000 4337.727434s notice: Storage engine shut down.
+2016-07-15T14:18:34.439333000 120.223903s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-15T14:18:34.444958000 120.229522s notice: Running on Darwin 15.3.0 x86_64
+2016-07-15T14:18:34.445018000 120.229581s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-15T14:18:34.467004000 120.251567s info: Automatically using cache size of 100 MB
+2016-07-15T14:18:34.467018000 120.251580s warn: Cache size is very low and may impact performance.
+2016-07-15T14:18:34.468498000 120.253061s notice: Listening for intracluster connections on port 29015
+2016-07-15T14:18:34.499316000 120.283879s notice: Listening for client driver connections on port 28015
+2016-07-15T14:18:34.499541000 120.284104s notice: Listening for administrative HTTP connections on port 8080
+2016-07-15T14:18:34.499544000 120.284107s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-15T14:18:34.499546000 120.284109s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-15T14:18:34.499548000 120.284110s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-15T14:18:34.499559000 120.284122s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-15T14:18:34.499561000 120.284124s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-15T14:18:36.020148000 121.804737s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 9.
+2016-07-15T14:18:36.039434000 121.824023s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 9. Latest log index is 23.
+2016-07-15T14:18:36.198220000 121.982809s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-15T14:28:47.592930000 120.272655s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-15T14:28:47.598020000 120.277736s notice: Running on Darwin 15.3.0 x86_64
+2016-07-15T14:28:47.598078000 120.277793s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-15T14:28:47.635635000 120.315350s info: Automatically using cache size of 1540 MB
+2016-07-15T14:28:47.636574000 120.316288s notice: Listening for intracluster connections on port 29015
+2016-07-15T14:28:47.675511000 120.355226s notice: Listening for client driver connections on port 28015
+2016-07-15T14:28:47.675764000 120.355479s notice: Listening for administrative HTTP connections on port 8080
+2016-07-15T14:28:47.675768000 120.355482s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-15T14:28:47.675770000 120.355484s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-15T14:28:47.675772000 120.355486s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-15T14:28:47.675812000 120.355527s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-15T14:28:47.675816000 120.355531s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-15T14:28:49.063663000 121.743410s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-15T14:28:49.607772000 122.287520s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 10.
+2016-07-15T14:28:49.621596000 122.301344s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 10. Latest log index is 26.
+2016-07-16T09:41:49.682425000 0.108400s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-16T09:41:49.688483000 0.114455s notice: Running on Darwin 15.3.0 x86_64
+2016-07-16T09:41:49.688544000 0.114514s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-16T09:41:49.721829000 0.147800s info: Automatically using cache size of 988 MB
+2016-07-16T09:41:49.722818000 0.148788s notice: Listening for intracluster connections on port 29015
+2016-07-16T09:41:49.762888000 0.188859s notice: Listening for client driver connections on port 28015
+2016-07-16T09:41:49.763081000 0.189052s notice: Listening for administrative HTTP connections on port 8080
+2016-07-16T09:41:49.763085000 0.189055s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-16T09:41:49.763087000 0.189057s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-16T09:41:49.763089000 0.189059s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-16T09:41:49.763100000 0.189070s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-16T09:41:49.763102000 0.189072s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-16T09:41:50.844029000 1.270032s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-16T09:41:50.941235000 1.367270s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 11.
+2016-07-16T09:41:50.959801000 1.385835s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 11. Latest log index is 29.
+2016-07-16T10:36:25.486480000 0.036360s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-16T10:36:25.493795000 0.043671s notice: Running on Darwin 15.3.0 x86_64
+2016-07-16T10:36:25.493873000 0.043748s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-16T10:36:25.522750000 0.072626s info: Automatically using cache size of 1331 MB
+2016-07-16T10:36:25.524249000 0.074124s notice: Listening for intracluster connections on port 29015
+2016-07-16T10:36:25.558162000 0.108037s notice: Listening for client driver connections on port 28015
+2016-07-16T10:36:25.558430000 0.108304s notice: Listening for administrative HTTP connections on port 8080
+2016-07-16T10:36:25.558435000 0.108309s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-16T10:36:25.558438000 0.108313s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-16T10:36:25.558455000 0.108330s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-16T10:36:25.558460000 0.108334s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-16T10:36:25.558463000 0.108338s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-16T10:36:26.895450000 1.445356s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-16T10:36:27.120558000 1.670464s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 12.
+2016-07-16T10:36:27.152710000 1.702616s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 12. Latest log index is 32.
+2016-07-16T11:08:53.448121000 1948.049848s notice: Server got SIGINT from pid 380, uid 501; shutting down...
+2016-07-16T11:08:53.448362000 1948.050088s notice: Shutting down client connections...
+2016-07-16T11:08:53.448655000 1948.050381s notice: All client connections closed.
+2016-07-16T11:08:53.448671000 1948.050397s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-16T11:08:53.556447000 1948.158173s notice: Storage engine shut down.
+2016-07-16T12:13:32.315747000 0.427793s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-16T12:13:32.323235000 0.435275s notice: Running on Darwin 15.3.0 x86_64
+2016-07-16T12:13:32.323306000 0.435345s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-16T12:13:32.355090000 0.467130s info: Automatically using cache size of 699 MB
+2016-07-16T12:13:32.355996000 0.468036s notice: Listening for intracluster connections on port 29015
+2016-07-16T12:13:32.383639000 0.495679s notice: Listening for client driver connections on port 28015
+2016-07-16T12:13:32.384025000 0.496064s notice: Listening for administrative HTTP connections on port 8080
+2016-07-16T12:13:32.384029000 0.496068s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-16T12:13:32.384032000 0.496071s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-16T12:13:32.384034000 0.496073s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-16T12:13:32.384295000 0.496334s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-16T12:13:32.384298000 0.496337s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-16T12:13:33.398786000 1.510850s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 13.
+2016-07-16T12:13:33.416348000 1.528412s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 13. Latest log index is 35.
+2016-07-16T12:13:33.450374000 1.562437s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-16T13:50:09.237645000 5797.552556s notice: Server got SIGINT from pid 380, uid 501; shutting down...
+2016-07-16T13:50:09.237914000 5797.552825s notice: Shutting down client connections...
+2016-07-16T13:50:09.238457000 5797.553368s notice: All client connections closed.
+2016-07-16T13:50:09.238499000 5797.553409s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-16T13:50:09.242396000 5797.557306s notice: Storage engine shut down.
+2016-07-16T17:19:42.144000000 1.567274s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-16T17:19:42.162780000 1.586040s notice: Running on Darwin 15.3.0 x86_64
+2016-07-16T17:19:42.162949000 1.586206s notice: Loading data from directory /Users/jupiter/Desktop/OrigamiSystemWSnoname/Origami/python/rethinkdb_data
+2016-07-16T17:19:42.228797000 1.652055s info: Automatically using cache size of 341 MB
+2016-07-16T17:19:42.232609000 1.655867s notice: Listening for intracluster connections on port 29015
+2016-07-16T17:19:42.483053000 1.906312s notice: Listening for client driver connections on port 28015
+2016-07-16T17:19:42.484215000 1.907472s notice: Listening for administrative HTTP connections on port 8080
+2016-07-16T17:19:42.484233000 1.907490s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-16T17:19:42.484244000 1.907500s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-16T17:19:42.484273000 1.907529s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-16T17:19:42.484284000 1.907540s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-16T17:19:42.484311000 1.907567s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-16T17:19:43.945848000 3.369134s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 14.
+2016-07-16T17:19:44.345244000 3.768559s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-16T17:19:44.347063000 3.770378s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 14. Latest log index is 38.
+2016-07-16T17:28:34.719745000 534.157670s notice: Server got SIGINT from pid 380, uid 501; shutting down...
+2016-07-16T17:28:34.719941000 534.157866s notice: Shutting down client connections...
+2016-07-16T17:28:34.720128000 534.158053s notice: All client connections closed.
+2016-07-16T17:28:34.720142000 534.158067s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-16T17:28:34.724460000 534.162385s notice: Storage engine shut down.
+2016-07-18T09:44:54.991660000 0.274259s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T09:44:54.999191000 0.281783s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T09:44:54.999251000 0.281842s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Origami/python/rethinkdb_data
+2016-07-18T09:44:55.031624000 0.314215s info: Automatically using cache size of 275 MB
+2016-07-18T09:44:55.033645000 0.316236s notice: Listening for intracluster connections on port 29015
+2016-07-18T09:44:55.073174000 0.355765s notice: Listening for client driver connections on port 28015
+2016-07-18T09:44:55.073382000 0.355973s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T09:44:55.073386000 0.355976s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T09:44:55.073388000 0.355979s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T09:44:55.073399000 0.355989s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T09:44:55.073401000 0.355992s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T09:44:55.073403000 0.355994s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T09:44:56.750410000 2.033035s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 15.
+2016-07-18T09:44:56.764690000 2.047314s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 15. Latest log index is 41.
+2016-07-18T09:44:57.846239000 3.128895s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T09:59:38.299667000 883.599246s notice: Server got SIGINT from pid 604, uid 501; shutting down...
+2016-07-18T09:59:38.299854000 883.599433s notice: Shutting down client connections...
+2016-07-18T09:59:38.300185000 883.599765s notice: All client connections closed.
+2016-07-18T09:59:38.300196000 883.599774s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T09:59:38.304937000 883.604516s notice: Storage engine shut down.
+2016-07-18T10:00:56.216541000 0.369494s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T10:00:56.230284000 0.383214s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T10:00:56.230343000 0.383272s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T10:00:56.265227000 0.418156s info: Automatically using cache size of 100 MB
+2016-07-18T10:00:56.265239000 0.418167s warn: Cache size does not leave much memory for server and query overhead (available memory: 915 MB).
+2016-07-18T10:00:56.265247000 0.418176s warn: Cache size is very low and may impact performance.
+2016-07-18T10:00:56.266854000 0.419783s notice: Listening for intracluster connections on port 29015
+2016-07-18T10:00:56.303756000 0.456685s notice: Listening for client driver connections on port 28015
+2016-07-18T10:00:56.303985000 0.456914s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T10:00:56.303989000 0.456917s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T10:00:56.303991000 0.456919s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T10:00:56.303993000 0.456921s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T10:00:56.304005000 0.456934s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T10:00:56.304008000 0.456936s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T10:00:57.880465000 2.033427s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 16.
+2016-07-18T10:00:57.894465000 2.047427s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 16. Latest log index is 44.
+2016-07-18T10:00:59.050948000 3.203943s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T11:27:09.763859000 5173.736344s notice: Server got SIGINT from pid 1624, uid 501; shutting down...
+2016-07-18T11:27:09.764168000 5173.736654s notice: Shutting down client connections...
+2016-07-18T11:27:09.764761000 5173.737246s notice: All client connections closed.
+2016-07-18T11:27:09.764787000 5173.737271s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T11:27:09.769022000 5173.741507s notice: Storage engine shut down.
+2016-07-18T11:28:18.702652000 0.283709s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T11:28:18.709775000 0.290826s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T11:28:18.709836000 0.290886s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T11:28:18.730201000 0.311252s info: Automatically using cache size of 100 MB
+2016-07-18T11:28:18.730214000 0.311265s warn: Cache size is very low and may impact performance.
+2016-07-18T11:28:18.731338000 0.312389s notice: Listening for intracluster connections on port 29015
+2016-07-18T11:28:18.766245000 0.347295s notice: Listening for client driver connections on port 28015
+2016-07-18T11:28:18.766655000 0.347705s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T11:28:18.766658000 0.347709s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T11:28:18.766661000 0.347711s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T11:28:18.766664000 0.347714s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T11:28:18.766704000 0.347754s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T11:28:18.766707000 0.347757s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T11:28:20.712821000 2.293851s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 17.
+2016-07-18T11:28:20.730954000 2.311985s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 17. Latest log index is 47.
+2016-07-18T11:28:21.453781000 3.034791s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T11:43:05.429054000 886.986722s notice: Server got SIGINT from pid 1624, uid 501; shutting down...
+2016-07-18T11:43:05.429361000 886.987027s notice: Shutting down client connections...
+2016-07-18T11:43:05.429676000 886.987343s notice: All client connections closed.
+2016-07-18T11:43:05.429686000 886.987352s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T11:43:05.435753000 886.993420s notice: Storage engine shut down.
+2016-07-18T12:51:00.619637000 0.295909s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T12:51:00.627215000 0.303482s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T12:51:00.627287000 0.303552s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T12:51:00.663107000 0.339373s info: Automatically using cache size of 100 MB
+2016-07-18T12:51:00.663125000 0.339389s warn: Cache size does not leave much memory for server and query overhead (available memory: 1007 MB).
+2016-07-18T12:51:00.663135000 0.339399s warn: Cache size is very low and may impact performance.
+2016-07-18T12:51:00.665236000 0.341501s notice: Listening for intracluster connections on port 29015
+2016-07-18T12:51:00.696549000 0.372814s notice: Listening for client driver connections on port 28015
+2016-07-18T12:51:00.696789000 0.373054s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T12:51:00.696794000 0.373058s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T12:51:00.696797000 0.373062s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T12:51:00.696800000 0.373065s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T12:51:00.696815000 0.373080s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T12:51:00.696819000 0.373083s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T12:51:02.067669000 1.743844s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T12:51:02.106501000 1.782677s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 18.
+2016-07-18T12:51:02.126132000 1.802307s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 18. Latest log index is 50.
+2016-07-18T13:13:25.963662000 1345.309244s notice: Server got SIGINT from pid 1624, uid 501; shutting down...
+2016-07-18T13:13:25.963827000 1345.309408s notice: Shutting down client connections...
+2016-07-18T13:13:25.964256000 1345.309837s notice: All client connections closed.
+2016-07-18T13:13:25.964263000 1345.309843s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T13:13:25.967977000 1345.313558s notice: Storage engine shut down.
+2016-07-18T13:13:30.162229000 0.297583s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T13:13:30.168761000 0.304110s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T13:13:30.168821000 0.304168s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T13:13:30.199921000 0.335268s info: Automatically using cache size of 100 MB
+2016-07-18T13:13:30.199933000 0.335280s warn: Cache size does not leave much memory for server and query overhead (available memory: 1011 MB).
+2016-07-18T13:13:30.199941000 0.335288s warn: Cache size is very low and may impact performance.
+2016-07-18T13:13:30.201032000 0.336379s notice: Listening for intracluster connections on port 29015
+2016-07-18T13:13:30.246293000 0.381626s notice: Listening for client driver connections on port 28015
+2016-07-18T13:13:30.246484000 0.381815s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T13:13:30.246487000 0.381818s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T13:13:30.246489000 0.381820s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T13:13:30.246491000 0.381822s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T13:13:30.246502000 0.381833s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T13:13:30.246504000 0.381835s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T13:13:32.020869000 2.156186s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 19.
+2016-07-18T13:13:32.032948000 2.168264s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 19. Latest log index is 53.
+2016-07-18T13:13:32.860235000 2.995551s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T16:55:27.868825000 0.037427s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T16:55:27.874516000 0.043115s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T16:55:27.874575000 0.043173s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T16:55:27.897969000 0.066568s info: Automatically using cache size of 1474 MB
+2016-07-18T16:55:27.899329000 0.067928s notice: Listening for intracluster connections on port 29015
+2016-07-18T16:55:27.939930000 0.108528s notice: Listening for client driver connections on port 28015
+2016-07-18T16:55:27.940117000 0.108715s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T16:55:27.940120000 0.108718s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T16:55:27.940122000 0.108720s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T16:55:27.940124000 0.108722s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T16:55:27.940134000 0.108732s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T16:55:27.940136000 0.108734s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T16:55:29.644929000 1.813529s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 20.
+2016-07-18T16:55:29.661782000 1.830380s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 20. Latest log index is 56.
+2016-07-18T16:55:29.666480000 1.835078s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T17:01:08.571168000 340.000126s notice: Server got SIGINT from pid 384, uid 501; shutting down...
+2016-07-18T17:01:08.571381000 340.000339s notice: Shutting down client connections...
+2016-07-18T17:01:08.571591000 340.000548s notice: All client connections closed.
+2016-07-18T17:01:08.571604000 340.000561s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T17:01:08.576274000 340.005232s notice: Storage engine shut down.
+2016-07-18T18:42:55.385704000 0.334944s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T18:42:55.389908000 0.339144s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T18:42:55.389967000 0.339202s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T18:42:55.425756000 0.374991s info: Automatically using cache size of 126 MB
+2016-07-18T18:42:55.427493000 0.376729s notice: Listening for intracluster connections on port 29015
+2016-07-18T18:42:55.456299000 0.405534s notice: Listening for client driver connections on port 28015
+2016-07-18T18:42:55.456507000 0.405742s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T18:42:55.456511000 0.405745s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T18:42:55.456513000 0.405748s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T18:42:55.456515000 0.405749s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T18:42:55.456525000 0.405760s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T18:42:55.456527000 0.405762s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T18:42:56.764949000 1.714185s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T18:42:56.846978000 1.796214s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 21.
+2016-07-18T18:42:56.860983000 1.810219s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 21. Latest log index is 59.
+2016-07-18T19:33:38.038126000 3043.017952s notice: Server got SIGINT from pid 1348, uid 501; shutting down...
+2016-07-18T19:33:38.038687000 3043.018513s notice: Shutting down client connections...
+2016-07-18T19:33:38.039131000 3043.018958s notice: All client connections closed.
+2016-07-18T19:33:38.039143000 3043.018968s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T19:33:38.048196000 3043.028021s notice: Storage engine shut down.
+2016-07-18T21:22:59.257110000 0.200632s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T21:22:59.261301000 0.204821s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T21:22:59.261360000 0.204878s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T21:22:59.296845000 0.240364s info: Automatically using cache size of 524 MB
+2016-07-18T21:22:59.297913000 0.241431s notice: Listening for intracluster connections on port 29015
+2016-07-18T21:22:59.329711000 0.273230s notice: Listening for client driver connections on port 28015
+2016-07-18T21:22:59.329878000 0.273396s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T21:22:59.329883000 0.273400s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T21:22:59.329886000 0.273404s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T21:22:59.329888000 0.273406s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T21:22:59.329949000 0.273467s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T21:22:59.329954000 0.273472s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T21:23:00.730228000 1.673791s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T21:23:00.916780000 1.860344s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 22.
+2016-07-18T21:23:00.938078000 1.881642s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 22. Latest log index is 62.
+2016-07-18T21:32:40.374420000 0.043583s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-18T21:32:40.384144000 0.053302s notice: Running on Darwin 15.3.0 x86_64
+2016-07-18T21:32:40.384208000 0.053365s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-18T21:32:40.416540000 0.085698s info: Automatically using cache size of 1199 MB
+2016-07-18T21:32:40.418135000 0.087292s notice: Listening for intracluster connections on port 29015
+2016-07-18T21:32:40.457442000 0.126600s notice: Listening for client driver connections on port 28015
+2016-07-18T21:32:40.457806000 0.126963s notice: Listening for administrative HTTP connections on port 8080
+2016-07-18T21:32:40.457812000 0.126969s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-18T21:32:40.457816000 0.126973s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-18T21:32:40.457819000 0.126976s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-18T21:32:40.457846000 0.127002s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-18T21:32:40.457879000 0.127036s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-18T21:32:41.582289000 1.251447s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 23.
+2016-07-18T21:32:41.596256000 1.265413s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 23. Latest log index is 65.
+2016-07-18T21:32:41.932982000 1.602140s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-18T23:09:08.274368000 4154.003817s notice: Server got SIGINT from pid 379, uid 501; shutting down...
+2016-07-18T23:09:08.274654000 4154.004103s notice: Shutting down client connections...
+2016-07-18T23:09:08.274916000 4154.004365s notice: All client connections closed.
+2016-07-18T23:09:08.274930000 4154.004379s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-18T23:09:08.279698000 4154.009148s notice: Storage engine shut down.
+2016-07-20T14:59:10.225092000 0.547434s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-20T14:59:10.235351000 0.557687s notice: Running on Darwin 15.3.0 x86_64
+2016-07-20T14:59:10.235414000 0.557749s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-20T14:59:10.277528000 0.599864s info: Automatically using cache size of 100 MB
+2016-07-20T14:59:10.277543000 0.599878s warn: Cache size does not leave much memory for server and query overhead (available memory: 748 MB).
+2016-07-20T14:59:10.277550000 0.599885s warn: Cache size is very low and may impact performance.
+2016-07-20T14:59:10.282496000 0.604831s notice: Listening for intracluster connections on port 29015
+2016-07-20T14:59:10.315903000 0.638238s notice: Listening for client driver connections on port 28015
+2016-07-20T14:59:10.316288000 0.638623s notice: Listening for administrative HTTP connections on port 8080
+2016-07-20T14:59:10.316293000 0.638628s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-20T14:59:10.316297000 0.638632s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-20T14:59:10.316300000 0.638635s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-20T14:59:10.316315000 0.638650s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-20T14:59:10.316318000 0.638653s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-20T14:59:11.793684000 2.116031s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-20T14:59:12.196133000 2.518479s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 24.
+2016-07-20T14:59:12.206549000 2.528896s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 24. Latest log index is 68.
+2016-07-20T15:07:46.004730000 0.050288s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-20T15:07:46.012243000 0.057795s notice: Running on Darwin 15.3.0 x86_64
+2016-07-20T15:07:46.012355000 0.057906s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-20T15:07:46.046071000 0.091623s info: Automatically using cache size of 1215 MB
+2016-07-20T15:07:46.047807000 0.093358s notice: Listening for intracluster connections on port 29015
+2016-07-20T15:07:46.075372000 0.120924s notice: Listening for client driver connections on port 28015
+2016-07-20T15:07:46.075604000 0.121155s notice: Listening for administrative HTTP connections on port 8080
+2016-07-20T15:07:46.075609000 0.121160s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-20T15:07:46.075612000 0.121163s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-20T15:07:46.075615000 0.121166s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-20T15:07:46.075632000 0.121183s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-20T15:07:46.075635000 0.121186s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-20T15:07:47.431502000 1.477034s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-20T15:07:47.583340000 1.628872s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 25.
+2016-07-20T15:07:47.606741000 1.652274s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 25. Latest log index is 71.
+2016-07-20T15:34:58.043783000 1632.086258s notice: Server got SIGINT from pid 397, uid 501; shutting down...
+2016-07-20T15:34:58.044004000 1632.086478s notice: Shutting down client connections...
+2016-07-20T15:34:58.044475000 1632.086949s notice: All client connections closed.
+2016-07-20T15:34:58.044484000 1632.086957s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-20T15:34:58.048057000 1632.090531s notice: Storage engine shut down.
+2016-07-20T15:35:12.542217000 0.165180s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-20T15:35:12.546852000 0.169810s notice: Running on Darwin 15.3.0 x86_64
+2016-07-20T15:35:12.546913000 0.169869s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-20T15:35:12.572248000 0.195204s info: Automatically using cache size of 427 MB
+2016-07-20T15:35:12.573217000 0.196173s notice: Listening for intracluster connections on port 29015
+2016-07-20T15:35:12.609882000 0.232839s notice: Listening for client driver connections on port 28015
+2016-07-20T15:35:12.610066000 0.233022s notice: Listening for administrative HTTP connections on port 8080
+2016-07-20T15:35:12.610072000 0.233028s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-20T15:35:12.610075000 0.233031s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-20T15:35:12.610078000 0.233034s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-20T15:35:12.610095000 0.233051s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-20T15:35:12.610098000 0.233054s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-20T15:35:14.202630000 1.825601s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-20T15:35:14.525229000 2.148213s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 26.
+2016-07-20T15:35:14.539578000 2.162562s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 26. Latest log index is 74.
+2016-07-20T15:45:01.437358000 589.069276s notice: Server got SIGINT from pid 397, uid 501; shutting down...
+2016-07-20T15:45:01.437590000 589.069507s notice: Shutting down client connections...
+2016-07-20T15:45:01.437837000 589.069754s notice: All client connections closed.
+2016-07-20T15:45:01.437850000 589.069767s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-20T15:45:01.543950000 589.175868s notice: Storage engine shut down.
+2016-07-20T17:52:03.638344000 0.029485s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-20T17:52:03.643088000 0.034226s notice: Running on Darwin 15.3.0 x86_64
+2016-07-20T17:52:03.643140000 0.034276s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-20T17:52:03.673447000 0.064584s info: Automatically using cache size of 396 MB
+2016-07-20T17:52:03.674872000 0.066009s notice: Listening for intracluster connections on port 29015
+2016-07-20T17:52:03.715915000 0.107053s notice: Listening for client driver connections on port 28015
+2016-07-20T17:52:03.716098000 0.107235s notice: Listening for administrative HTTP connections on port 8080
+2016-07-20T17:52:03.716101000 0.107238s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-20T17:52:03.716103000 0.107240s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-20T17:52:03.716105000 0.107242s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-20T17:52:03.716116000 0.107253s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-20T17:52:03.716118000 0.107255s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-20T17:52:05.694075000 2.085195s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 27.
+2016-07-20T17:52:05.710759000 2.101880s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 27. Latest log index is 77.
+2016-07-20T17:52:18.152168000 14.543172s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-20T19:47:45.495887000 6619.409128s notice: Server got SIGINT from pid 397, uid 501; shutting down...
+2016-07-20T19:47:45.496208000 6619.409449s notice: Shutting down client connections...
+2016-07-20T19:47:45.496554000 6619.409794s notice: All client connections closed.
+2016-07-20T19:47:45.496563000 6619.409803s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-20T19:47:45.501645000 6619.414886s notice: Storage engine shut down.
+2016-07-20T20:38:05.402609000 0.009712s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-20T20:38:05.406627000 0.013727s notice: Running on Darwin 15.3.0 x86_64
+2016-07-20T20:38:05.406700000 0.013798s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-07-20T20:38:05.445359000 0.052458s info: Automatically using cache size of 190 MB
+2016-07-20T20:38:05.446699000 0.053797s notice: Listening for intracluster connections on port 29015
+2016-07-20T20:38:05.485860000 0.092959s notice: Listening for client driver connections on port 28015
+2016-07-20T20:38:05.486094000 0.093193s notice: Listening for administrative HTTP connections on port 8080
+2016-07-20T20:38:05.486100000 0.093198s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-20T20:38:05.486117000 0.093215s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-20T20:38:05.486120000 0.093218s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-20T20:38:05.486122000 0.093220s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-20T20:38:05.486134000 0.093232s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-07-20T20:38:07.085940000 1.693039s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-20T20:38:07.392646000 1.999779s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 28.
+2016-07-20T20:38:07.416955000 2.024088s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 28. Latest log index is 80.
+2016-07-20T21:29:11.962072000 3065.699240s notice: Server got SIGINT from pid 397, uid 501; shutting down...
+2016-07-20T21:29:11.962293000 3065.699460s notice: Shutting down client connections...
+2016-07-20T21:29:11.962493000 3065.699661s notice: All client connections closed.
+2016-07-20T21:29:11.962503000 3065.699670s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-20T21:29:12.077953000 3065.815121s notice: Storage engine shut down.
+2016-08-08T11:01:58.070224000 120.286985s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-08T11:01:58.075777000 120.292534s notice: Running on Darwin 15.3.0 x86_64
+2016-08-08T11:01:58.075834000 120.292590s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-08T11:01:58.109321000 120.326077s info: Automatically using cache size of 100 MB
+2016-08-08T11:01:58.109334000 120.326089s warn: Cache size does not leave much memory for server and query overhead (available memory: 1123 MB).
+2016-08-08T11:01:58.109341000 120.326096s warn: Cache size is very low and may impact performance.
+2016-08-08T11:01:58.111800000 120.328556s notice: Listening for intracluster connections on port 29015
+2016-08-08T11:01:58.170332000 120.387088s notice: Listening for client driver connections on port 28015
+2016-08-08T11:01:58.170611000 120.387367s notice: Listening for administrative HTTP connections on port 8080
+2016-08-08T11:01:58.170614000 120.387369s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-08T11:01:58.170616000 120.387372s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-08T11:01:58.170618000 120.387374s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-08T11:01:58.170630000 120.387385s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-08T11:01:58.170632000 120.387387s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-08T11:02:00.000700000 122.217492s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 29.
+2016-08-08T11:02:00.018814000 122.235606s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 29. Latest log index is 83.
+2016-08-08T11:02:00.803520000 123.020348s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-08T12:29:37.609789000 4941.313972s notice: Server got SIGINT from pid 832, uid 501; shutting down...
+2016-08-08T12:29:37.609993000 4941.314176s notice: Shutting down client connections...
+2016-08-08T12:29:37.610164000 4941.314347s notice: All client connections closed.
+2016-08-08T12:29:37.610174000 4941.314356s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-08T12:29:37.614281000 4941.318464s notice: Storage engine shut down.
+2016-08-12T11:47:03.911798000 0.304513s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-12T11:47:03.917772000 0.310484s notice: Running on Darwin 15.3.0 x86_64
+2016-08-12T11:47:03.917832000 0.310542s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-12T11:47:03.941336000 0.334046s info: Automatically using cache size of 100 MB
+2016-08-12T11:47:03.941365000 0.334075s warn: Cache size does not leave much memory for server and query overhead (available memory: 1102 MB).
+2016-08-12T11:47:03.941375000 0.334085s warn: Cache size is very low and may impact performance.
+2016-08-12T11:47:03.943008000 0.335718s notice: Listening for intracluster connections on port 29015
+2016-08-12T11:47:03.966064000 0.358775s notice: Listening for client driver connections on port 28015
+2016-08-12T11:47:03.966219000 0.358929s notice: Listening for administrative HTTP connections on port 8080
+2016-08-12T11:47:03.966221000 0.358931s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-12T11:47:03.966221001 0.358931s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-12T11:47:03.966224000 0.358934s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-12T11:47:03.966225000 0.358936s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-12T11:47:03.966364000 0.359075s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-12T11:47:05.065083000 1.457837s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-12T11:47:05.683725000 2.076479s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 30.
+2016-08-12T11:47:05.697555000 2.090309s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 30. Latest log index is 86.
+2016-08-12T11:53:59.844852000 416.247569s notice: Server got SIGINT from pid 943, uid 501; shutting down...
+2016-08-12T11:53:59.844970000 416.247686s notice: Shutting down client connections...
+2016-08-12T11:53:59.845122000 416.247839s notice: All client connections closed.
+2016-08-12T11:53:59.845131000 416.247848s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-12T11:53:59.850040000 416.252757s notice: Storage engine shut down.
+2016-08-12T11:56:32.058284000 0.361034s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-12T11:56:32.066433000 0.369178s notice: Running on Darwin 15.3.0 x86_64
+2016-08-12T11:56:32.066524000 0.369267s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-12T11:56:32.087909000 0.390651s info: Automatically using cache size of 100 MB
+2016-08-12T11:56:32.087920000 0.390662s warn: Cache size does not leave much memory for server and query overhead (available memory: 917 MB).
+2016-08-12T11:56:32.087928000 0.390670s warn: Cache size is very low and may impact performance.
+2016-08-12T11:56:32.089179000 0.391921s notice: Listening for intracluster connections on port 29015
+2016-08-12T11:56:32.112249000 0.415000s notice: Listening for client driver connections on port 28015
+2016-08-12T11:56:32.112513000 0.415256s notice: Listening for administrative HTTP connections on port 8080
+2016-08-12T11:56:32.112517000 0.415259s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-12T11:56:32.112519000 0.415261s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-12T11:56:32.112521000 0.415264s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-12T11:56:32.112646000 0.415389s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-12T11:56:32.112651000 0.415393s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-12T11:56:32.974342000 1.277127s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-12T11:56:33.603998000 1.906783s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 31.
+2016-08-12T11:56:33.617835000 1.920621s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 31. Latest log index is 89.
+2016-08-12T12:07:04.430832000 632.748784s notice: Server got SIGINT from pid 943, uid 501; shutting down...
+2016-08-12T12:07:04.431060000 632.749012s notice: Shutting down client connections...
+2016-08-12T12:07:04.431259000 632.749211s notice: All client connections closed.
+2016-08-12T12:07:04.431267000 632.749219s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-12T12:07:04.436577000 632.754529s notice: Storage engine shut down.
+2016-08-12T17:21:45.715892000 0.476755s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-12T17:21:45.721251000 0.482111s notice: Running on Darwin 15.3.0 x86_64
+2016-08-12T17:21:45.721310000 0.482169s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-12T17:21:45.744201000 0.505059s info: Automatically using cache size of 318 MB
+2016-08-12T17:21:45.745707000 0.506566s notice: Listening for intracluster connections on port 29015
+2016-08-12T17:21:45.773697000 0.534556s notice: Listening for client driver connections on port 28015
+2016-08-12T17:21:45.774064000 0.534923s notice: Listening for administrative HTTP connections on port 8080
+2016-08-12T17:21:45.774069000 0.534927s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-12T17:21:45.774071000 0.534929s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-12T17:21:45.774073000 0.534932s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-12T17:21:45.774150000 0.535008s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-12T17:21:45.774154000 0.535013s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-12T17:21:46.738962000 1.499862s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-12T17:21:46.885985000 1.646885s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 32.
+2016-08-12T17:21:46.899344000 1.660244s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 32. Latest log index is 92.
+2016-08-12T17:22:48.760885000 63.523217s notice: Server got SIGINT from pid 943, uid 501; shutting down...
+2016-08-12T17:22:48.761163000 63.523494s notice: Shutting down client connections...
+2016-08-12T17:22:48.761401000 63.523732s notice: All client connections closed.
+2016-08-12T17:22:48.761416000 63.523747s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-12T17:22:48.767133000 63.529464s notice: Storage engine shut down.
+2016-08-13T11:49:09.115082000 0.336031s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-13T11:49:09.134338000 0.355272s notice: Running on Darwin 15.3.0 x86_64
+2016-08-13T11:49:09.134489000 0.355420s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-13T11:49:09.199266000 0.420197s info: Automatically using cache size of 153 MB
+2016-08-13T11:49:09.204004000 0.424936s notice: Listening for intracluster connections on port 29015
+2016-08-13T11:49:09.318426000 0.539357s notice: Listening for client driver connections on port 28015
+2016-08-13T11:49:09.319507000 0.540439s notice: Listening for administrative HTTP connections on port 8080
+2016-08-13T11:49:09.319523000 0.540454s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-13T11:49:09.319533000 0.540463s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-13T11:49:09.319978000 0.540910s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-13T11:49:09.319998000 0.540929s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-13T11:49:09.320009000 0.540940s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-13T11:49:10.427920000 1.648893s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 33.
+2016-08-13T11:49:10.441609000 1.662582s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 33. Latest log index is 95.
+2016-08-13T11:49:10.876970000 2.097943s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-13T13:15:11.261525000 5162.870692s notice: Server got SIGINT from pid 943, uid 501; shutting down...
+2016-08-13T13:15:11.262358000 5162.871525s notice: Shutting down client connections...
+2016-08-13T13:15:11.263387000 5162.872554s notice: All client connections closed.
+2016-08-13T13:15:11.263408000 5162.872575s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-13T13:15:11.270025000 5162.879193s notice: Storage engine shut down.
+2016-08-30T11:14:57.670747000 0.538475s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-30T11:14:57.677868000 0.545592s notice: Running on Darwin 15.3.0 x86_64
+2016-08-30T11:14:57.677927000 0.545650s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-30T11:14:57.710961000 0.578684s info: Automatically using cache size of 100 MB
+2016-08-30T11:14:57.710973000 0.578696s warn: Cache size does not leave much memory for server and query overhead (available memory: 673 MB).
+2016-08-30T11:14:57.710981000 0.578704s warn: Cache size is very low and may impact performance.
+2016-08-30T11:14:57.712944000 0.580667s notice: Listening for intracluster connections on port 29015
+2016-08-30T11:14:57.742066000 0.609789s notice: Listening for client driver connections on port 28015
+2016-08-30T11:14:57.742281000 0.610003s notice: Listening for administrative HTTP connections on port 8080
+2016-08-30T11:14:57.742284000 0.610006s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-30T11:14:57.742286000 0.610008s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-30T11:14:57.742288000 0.610010s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-30T11:14:57.742328000 0.610051s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-30T11:14:57.742333000 0.610055s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-30T11:14:58.631253000 1.498976s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-30T11:14:59.257313000 2.125036s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 34.
+2016-08-30T11:14:59.271903000 2.139626s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 34. Latest log index is 98.
+2016-08-30T11:32:14.249256000 1037.143117s notice: Server got SIGINT from pid 5230, uid 501; shutting down...
+2016-08-30T11:32:14.249516000 1037.143377s notice: Shutting down client connections...
+2016-08-30T11:32:14.249716000 1037.143577s notice: All client connections closed.
+2016-08-30T11:32:14.249724000 1037.143584s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-30T11:32:14.388976000 1037.282837s notice: Storage engine shut down.
+2016-08-31T10:29:43.117277000 0.051048s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-31T10:29:43.128730000 0.062494s notice: Running on Darwin 15.3.0 x86_64
+2016-08-31T10:29:43.128810000 0.062572s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-31T10:29:43.165241000 0.099004s info: Automatically using cache size of 587 MB
+2016-08-31T10:29:43.168679000 0.102442s notice: Listening for intracluster connections on port 29015
+2016-08-31T10:29:43.255781000 0.189544s notice: Listening for client driver connections on port 28015
+2016-08-31T10:29:43.257207000 0.190970s notice: Listening for administrative HTTP connections on port 8080
+2016-08-31T10:29:43.257218000 0.190980s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-31T10:29:43.257225000 0.190987s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-31T10:29:43.257232000 0.190994s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-31T10:29:43.257277000 0.191040s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-31T10:29:43.257286000 0.191048s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-31T10:29:44.162932000 1.096740s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-31T10:29:45.011923000 1.945731s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 35.
+2016-08-31T10:29:45.025660000 1.959468s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 35. Latest log index is 101.
+2016-08-31T10:37:01.100399000 438.044754s notice: Server got SIGINT from pid 5230, uid 501; shutting down...
+2016-08-31T10:37:01.100528000 438.044883s notice: Shutting down client connections...
+2016-08-31T10:37:01.100649000 438.045004s notice: All client connections closed.
+2016-08-31T10:37:01.100658000 438.045012s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-31T10:37:01.103255000 438.047609s notice: Storage engine shut down.
+2016-08-31T11:02:20.377442000 0.009457s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-31T11:02:20.381837000 0.013848s notice: Running on Darwin 15.3.0 x86_64
+2016-08-31T11:02:20.381918000 0.013929s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-31T11:02:20.410081000 0.042092s info: Automatically using cache size of 208 MB
+2016-08-31T11:02:20.411085000 0.043095s notice: Listening for intracluster connections on port 29015
+2016-08-31T11:02:20.443760000 0.075772s notice: Listening for client driver connections on port 28015
+2016-08-31T11:02:20.444172000 0.076183s notice: Listening for administrative HTTP connections on port 8080
+2016-08-31T11:02:20.444177000 0.076187s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-31T11:02:20.444179000 0.076189s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-31T11:02:20.444182000 0.076192s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-31T11:02:20.444786000 0.076839s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-31T11:02:20.444837000 0.076848s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-31T11:02:21.684761000 1.316817s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 36.
+2016-08-31T11:02:21.697670000 1.329725s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 36. Latest log index is 104.
+2016-08-31T11:02:22.689221000 2.321276s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-31T11:04:00.334938000 99.969358s notice: Server got SIGINT from pid 5230, uid 501; shutting down...
+2016-08-31T11:04:00.335162000 99.969582s notice: Shutting down client connections...
+2016-08-31T11:04:00.335404000 99.969824s notice: All client connections closed.
+2016-08-31T11:04:00.335420000 99.969839s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-31T11:04:00.341488000 99.975908s notice: Storage engine shut down.
+2016-08-31T11:04:05.738647000 0.018223s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-31T11:04:05.747049000 0.026621s notice: Running on Darwin 15.3.0 x86_64
+2016-08-31T11:04:05.747111000 0.026681s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-31T11:04:05.767014000 0.046584s info: Automatically using cache size of 135 MB
+2016-08-31T11:04:05.767999000 0.047569s notice: Listening for intracluster connections on port 29015
+2016-08-31T11:04:05.800083000 0.079654s notice: Listening for client driver connections on port 28015
+2016-08-31T11:04:05.800464000 0.080035s notice: Listening for administrative HTTP connections on port 8080
+2016-08-31T11:04:05.800469000 0.080038s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-31T11:04:05.800471000 0.080041s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-31T11:04:05.800474000 0.080044s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-31T11:04:05.800756000 0.080326s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-31T11:04:05.800761000 0.080331s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-31T11:04:06.514716000 0.794330s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-31T11:04:07.418972000 1.698587s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 37.
+2016-08-31T11:04:07.432795000 1.712409s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 37. Latest log index is 107.
+2016-08-31T11:04:25.893142000 20.173203s notice: Server got SIGINT from pid 5230, uid 501; shutting down...
+2016-08-31T11:04:25.893284000 20.173345s notice: Shutting down client connections...
+2016-08-31T11:04:25.893406000 20.173467s notice: All client connections closed.
+2016-08-31T11:04:25.893414000 20.173475s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-31T11:04:25.896337000 20.176399s notice: Storage engine shut down.
+2016-08-31T11:18:24.647416000 0.321417s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-31T11:18:24.651682000 0.325681s notice: Running on Darwin 15.3.0 x86_64
+2016-08-31T11:18:24.651749000 0.325746s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-08-31T11:18:24.777315000 0.451313s info: Automatically using cache size of 141 MB
+2016-08-31T11:18:24.779809000 0.453807s notice: Listening for intracluster connections on port 29015
+2016-08-31T11:18:24.809640000 0.483637s notice: Listening for client driver connections on port 28015
+2016-08-31T11:18:24.809816000 0.483814s notice: Listening for administrative HTTP connections on port 8080
+2016-08-31T11:18:24.809819000 0.483816s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-31T11:18:24.809821000 0.483818s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-31T11:18:24.809823000 0.483820s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-31T11:18:24.809834000 0.483832s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-31T11:18:24.809837000 0.483834s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-08-31T11:18:25.549108000 1.223105s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-08-31T11:18:26.561810000 2.235852s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 38.
+2016-08-31T11:18:26.575661000 2.249703s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 38. Latest log index is 110.
+2016-08-31T13:22:00.524807000 2558.979328s notice: Server got SIGINT from pid 5230, uid 501; shutting down...
+2016-08-31T13:22:00.525298000 2558.979814s notice: Shutting down client connections...
+2016-08-31T13:22:00.525876000 2558.980392s notice: All client connections closed.
+2016-08-31T13:22:00.525898000 2558.980414s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-31T13:22:00.543861000 2558.998378s notice: Storage engine shut down.
+2016-10-29T09:59:25.412144000 0.276544s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-10-29T09:59:25.416726000 0.281121s notice: Running on Darwin 15.3.0 x86_64
+2016-10-29T09:59:25.416786000 0.281180s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-10-29T09:59:25.452731000 0.317126s info: Automatically using cache size of 259 MB
+2016-10-29T09:59:25.454586000 0.318980s notice: Listening for intracluster connections on port 29015
+2016-10-29T09:59:25.491331000 0.355725s notice: Listening for client driver connections on port 28015
+2016-10-29T09:59:25.491531000 0.355924s notice: Listening for administrative HTTP connections on port 8080
+2016-10-29T09:59:25.491534000 0.355928s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-10-29T09:59:25.491536000 0.355930s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-10-29T09:59:25.491538000 0.355932s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-10-29T09:59:25.491550000 0.355943s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-29T09:59:25.491552000 0.355945s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-10-29T09:59:27.225441000 2.089880s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 39.
+2016-10-29T09:59:27.239708000 2.104147s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 39. Latest log index is 113.
+2016-10-29T09:59:27.650651000 2.515089s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-10-29T15:20:34.065635000 1269.025596s notice: Server got SIGINT from pid 1694, uid 501; shutting down...
+2016-10-29T15:20:34.065886000 1269.025848s notice: Shutting down client connections...
+2016-10-29T15:20:34.066139000 1269.026100s notice: All client connections closed.
+2016-10-29T15:20:34.066150000 1269.026110s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-29T15:20:34.176534000 1269.136495s notice: Storage engine shut down.
+2016-12-11T11:34:01.893339000 0.391544s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-11T11:34:01.897844000 0.396046s notice: Running on Darwin 15.3.0 x86_64
+2016-12-11T11:34:01.897899000 0.396100s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-12-11T11:34:01.934687000 0.432888s info: Automatically using cache size of 165 MB
+2016-12-11T11:34:01.936497000 0.434697s notice: Listening for intracluster connections on port 29015
+2016-12-11T11:34:01.973829000 0.472030s notice: Listening for client driver connections on port 28015
+2016-12-11T11:34:01.974083000 0.472284s notice: Listening for administrative HTTP connections on port 8080
+2016-12-11T11:34:01.974087000 0.472287s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-11T11:34:01.974089000 0.472289s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-11T11:34:01.974099000 0.472300s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-11T11:34:01.974101000 0.472302s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-11T11:34:01.974103000 0.472304s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-12-11T11:34:03.325142000 1.823381s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 40.
+2016-12-11T11:34:03.338883000 1.837121s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 40. Latest log index is 116.
+2016-12-11T11:34:03.518789000 2.017028s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-12-11T11:47:45.776137000 824.290772s notice: Server got SIGINT from pid 1102, uid 501; shutting down...
+2016-12-11T11:47:45.776449000 824.291083s notice: Shutting down client connections...
+2016-12-11T11:47:45.777045000 824.291679s notice: All client connections closed.
+2016-12-11T11:47:45.777054000 824.291687s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-11T11:47:45.784145000 824.298779s notice: Storage engine shut down.
+2016-12-13T18:05:09.821459000 0.349370s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-13T18:05:09.827580000 0.355488s notice: Running on Darwin 15.3.0 x86_64
+2016-12-13T18:05:09.827649000 0.355556s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-12-13T18:05:09.862009000 0.389915s info: Automatically using cache size of 450 MB
+2016-12-13T18:05:09.863537000 0.391443s notice: Listening for intracluster connections on port 29015
+2016-12-13T18:05:09.898779000 0.426686s notice: Listening for client driver connections on port 28015
+2016-12-13T18:05:09.899216000 0.427122s notice: Listening for administrative HTTP connections on port 8080
+2016-12-13T18:05:09.899223000 0.427129s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-13T18:05:09.899226000 0.427132s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-13T18:05:09.899228000 0.427134s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-13T18:05:09.899243000 0.427149s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-13T18:05:09.899247000 0.427153s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-12-13T18:05:11.760015000 2.287960s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 41.
+2016-12-13T18:05:11.773942000 2.301887s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 41. Latest log index is 119.
+2016-12-13T18:05:13.899997000 4.427980s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-12-13T18:11:41.606411000 392.142506s notice: Server got SIGINT from pid 1102, uid 501; shutting down...
+2016-12-13T18:11:41.606796000 392.142890s notice: Shutting down client connections...
+2016-12-13T18:11:41.607626000 392.143721s notice: All client connections closed.
+2016-12-13T18:11:41.607646000 392.143740s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-13T18:11:41.612371000 392.148465s notice: Storage engine shut down.
+2016-12-13T18:18:16.134452000 0.007604s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-13T18:18:16.138509000 0.011659s notice: Running on Darwin 15.3.0 x86_64
+2016-12-13T18:18:16.138566000 0.011714s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2016-12-13T18:18:16.276372000 0.149520s info: Automatically using cache size of 292 MB
+2016-12-13T18:18:16.277079000 0.150227s notice: Listening for intracluster connections on port 29015
+2016-12-13T18:18:16.312313000 0.185461s notice: Listening for client driver connections on port 28015
+2016-12-13T18:18:16.312668000 0.185816s notice: Listening for administrative HTTP connections on port 8080
+2016-12-13T18:18:16.312672000 0.185820s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-13T18:18:16.312675000 0.185823s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-13T18:18:16.312677000 0.185825s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-13T18:18:16.312689000 0.185836s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-13T18:18:16.312691000 0.185839s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2016-12-13T18:18:16.331424000 0.204572s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-12-13T18:18:18.179423000 2.052610s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 42.
+2016-12-13T18:18:18.194012000 2.067198s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 42. Latest log index is 122.
+2016-12-13T18:23:43.954955000 327.834987s notice: Server got SIGINT from pid 1102, uid 501; shutting down...
+2016-12-13T18:23:43.955154000 327.835186s notice: Shutting down client connections...
+2016-12-13T18:23:43.955486000 327.835518s notice: All client connections closed.
+2016-12-13T18:23:43.955502000 327.835534s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-13T18:23:43.959546000 327.839578s notice: Storage engine shut down.
+2017-02-02T07:31:42.492886000 0.037634s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2017-02-02T07:31:42.508658000 0.053405s notice: Running on Darwin 15.3.0 x86_64
+2017-02-02T07:31:42.508722000 0.053466s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2017-02-02T07:31:42.534017000 0.078762s info: Automatically using cache size of 900 MB
+2017-02-02T07:31:42.535539000 0.080284s notice: Listening for intracluster connections on port 29015
+2017-02-02T07:31:42.568746000 0.113491s notice: Listening for client driver connections on port 28015
+2017-02-02T07:31:42.568931000 0.113675s notice: Listening for administrative HTTP connections on port 8080
+2017-02-02T07:31:42.568934000 0.113679s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-02-02T07:31:42.568936000 0.113681s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-02-02T07:31:42.568938000 0.113683s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-02-02T07:31:42.568950000 0.113694s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-02-02T07:31:42.568952000 0.113697s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2017-02-02T07:31:44.173007000 1.717780s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 43.
+2017-02-02T07:31:44.187024000 1.731796s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 43. Latest log index is 125.
+2017-02-02T07:32:00.598284000 18.143271s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-02-02T08:00:31.494395000 1729.063747s notice: Server got SIGINT from pid 1339, uid 501; shutting down...
+2017-02-02T08:00:31.494666000 1729.064018s notice: Shutting down client connections...
+2017-02-02T08:00:31.494937000 1729.064289s notice: All client connections closed.
+2017-02-02T08:00:31.494952000 1729.064304s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-02-02T08:00:31.498425000 1729.067778s notice: Storage engine shut down.
+2017-03-09T10:51:33.988696000 0.444914s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2017-03-09T10:51:33.994483000 0.450697s notice: Running on Darwin 15.3.0 x86_64
+2017-03-09T10:51:33.994545000 0.450757s notice: Loading data from directory /Users/jupiter/Desktop/Nautical/Nautical/python/rethinkdb_data
+2017-03-09T10:51:34.032029000 0.488242s info: Automatically using cache size of 100 MB
+2017-03-09T10:51:34.032040000 0.488253s warn: Cache size does not leave much memory for server and query overhead (available memory: 740 MB).
+2017-03-09T10:51:34.032049000 0.488261s warn: Cache size is very low and may impact performance.
+2017-03-09T10:51:34.033711000 0.489923s notice: Listening for intracluster connections on port 29015
+2017-03-09T10:51:34.065371000 0.521584s notice: Listening for client driver connections on port 28015
+2017-03-09T10:51:34.065617000 0.521830s notice: Listening for administrative HTTP connections on port 8080
+2017-03-09T10:51:34.065621000 0.521833s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-09T10:51:34.065623000 0.521835s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-09T10:51:34.065625000 0.521837s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-09T10:51:34.065637000 0.521849s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-09T10:51:34.065639000 0.521851s notice: Server ready, "Jupiter_local_aj8" a2a691c4-c75e-4ca2-a25b-eb4c927a49a3
+2017-03-09T10:51:34.911774000 1.367911s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-03-09T10:51:35.363577000 1.819714s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: Starting a new Raft election for term 44.
+2017-03-09T10:51:35.381792000 1.837929s info: Table ff045386-7e34-46b7-997f-5727bf6ca024: This server is Raft leader for term 44. Latest log index is 128.
