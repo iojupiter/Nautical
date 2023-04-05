@@ -17,4 +17,4 @@ Harbours are the brick 'n mortars with WiFi networks.
 Docks are the micro-applications sailors connect to trade.
 Harbourmasters are the brick 'n mortar owners.
 
-
+![architecture]()
