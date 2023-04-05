@@ -18,4 +18,12 @@ Harbours are the brick 'n mortars with WiFi networks.
 Docks are the micro-applications sailors connect to trade.
 Harbourmasters are the brick 'n mortar owners.
 
+# Technologies used
+1. Python
+2. HTML, CSS, Javascript
+3. RabbitMQ
+4. Electron.js
+5. Apache Cordova
+6. RethinkDB
+
 ![architecture](https://github.com/iojupiter/Nautical/blob/master/systemCartography.jpg?raw=true)
