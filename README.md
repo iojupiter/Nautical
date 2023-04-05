@@ -6,8 +6,9 @@ The brick 'n mortar owner gathers client analytics over time which helps optimis
 A client enjoys a more personalised and contextualised service experience.
 Brick 'n mortars can be anything from restaurants, bars, cafés, hotels, museums, universities and even family homes.
 
+**Click on the image below to watch an app demo**
 
-[![The Nautical Experience Demo](Thumbnail)](https://youtu.be/m5lugNVBSUk)
+[![The Nautical Experience Demo](https://github.com/iojupiter/Nautical/blob/master/Screenshot%202023-04-05%20at%2015.07.42.png?raw=true)](https://youtu.be/m5lugNVBSUk)
 
 
 # Architecture
